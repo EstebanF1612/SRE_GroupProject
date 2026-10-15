@@ -9,17 +9,30 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-10-15T17:12:44.997Z",
+  "lastChangedOn": "2026-10-15T18:24:29.381Z",
   "lastChangedBy": {
-    "name": "T00755725",
-    "email": "t00755725@mytru.ca",
+    "name": "T00755277",
+    "email": "t00755277@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
     {
       "id": "52",
       "guid": "b0411c25-fbda-4376-93e8-d33b1920fdaf",
-      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>"
+      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00755277@mytru.ca",
+            "name": "T00755277"
+          },
+          "changedOn": "2026-10-15T18:24:29.381Z"
+        }
+      ]
     },
     {
       "id": "53",
@@ -39,7 +52,42 @@
             {
               "id": "56",
               "guid": "2512e376-681e-44ce-b776-53d3cf7d7030",
-              "text": "<p>&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers.&gt;</p>"
+              "text": "<p>This SRS is for the volunteer management system intended to be released in Kamloops. The first release of the system is planned to be October 1st and the second release is intended to be on December 1st. For further information on separate releases refer to the Vision and Scope document. This document is intended for the use of developers, project managers, testers, and document writers. Marketing staff may refer to this document if necessary.</p>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;Identify the product whose software requirements are specified in this document, including the revision or release number. Describe the different types of reader that the document is intended for, such as developers, project managers, marketing staff, users, testers, and documentation writers.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:06:13.976Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p><span style=\"text-decoration:none;vertical-align:baseline;\">This SRS is for the volunteer management system intended to be released in Kamloops. The first release of the system is planned to be October 1</span><span style=\"text-decoration:none;vertical-align:baseline;\"><span style=\"vertical-align:super;\">st</span></span><span style=\"text-decoration:none;vertical-align:baseline;\">&nbsp;and the second release is intended to be on December 1</span><span style=\"text-decoration:none;vertical-align:baseline;\"><span style=\"vertical-align:super;\">st</span></span><span style=\"text-decoration:none;vertical-align:baseline;\">. For further information on separate releases refer to the Vision and Scope document. This document is intended for the use of developers, project managers, testers, and document writers. Marketing staff may refer to this document if necessary.&nbsp;</span></p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:08:53.601Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p><span style=\"text-decoration:none;vertical-align:baseline;\">This SRS is for the volunteer management system intended to be released in</span></p><p><span style=\"text-decoration:none;vertical-align:baseline;\">Kamloops. The first release of the system is planned to be October 1</span><span style=\"text-decoration:none;vertical-align:baseline;\"><span style=\"vertical-align:super;\">st</span></span><span style=\"text-decoration:none;vertical-align:baseline;\">&nbsp;and the second release is intended to be on December 1</span><span style=\"text-decoration:none;vertical-align:baseline;\"><span style=\"vertical-align:super;\">st</span></span><span style=\"text-decoration:none;vertical-align:baseline;\">. For further information on&nbsp;</span><span style=\"text-decoration:none;vertical-align:baseline;\">separate releases refer to the Vision and Scope document. This document is intended for the use of developers, project managers, testers, and document writers. Marketing staff may refer to this document if necessary.&nbsp;</span></p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:14:19.576Z"
+                }
+              ]
             }
           ]
         },
@@ -51,7 +99,20 @@
             {
               "id": "58",
               "guid": "c26027eb-de95-45a0-ab22-80db3c86e0d8",
-              "text": "<p>&lt;Describe any standards or typographical conventions used, including the meaning of specific text styles, highlighting, or notations. If you are manually labeling unique requirement identifiers, you might specify the format here for anyone who needs to add one later.&gt;</p>"
+              "text": "<p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">VSD – Vision and Scope Document</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">SRS – Software Requirements Specifications Document</span></p>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;Describe any standards or typographical conventions used, including the meaning of specific text styles, highlighting, or notations. If you are manually labeling unique requirement identifiers, you might specify the format here for anyone who needs to add one later.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:14:44.565Z"
+                }
+              ]
             }
           ]
         },
@@ -63,7 +124,20 @@
             {
               "id": "60",
               "guid": "fd2af8fe-6cda-4cf9-9aeb-8246dac1115f",
-              "text": "<p>&lt;Provide a short description of the software being specified and its purpose. Relate the software to user or corporate goals and to business objectives and strategies. If a separate vision and scope or similar document is available, refer to it rather than duplicating its contents here. An SRS that specifies an incremental release of an evolving product should contain its own scope statement as a subset of the long-term strategic product vision. You might provide a high-level summary of the major features the release contains or the significant functions that it performs.&gt;</p>"
+              "text": "<p><span style=\"text-decoration:none;vertical-align:baseline;\">The volunteer management system is a centralized system for holding information on volunteers and volunteer work. The goal is to create an efficient system to manage the distribution and simplify the process of finding or requesting volunteer work. Release 1.0 will include automated background checks, daily notification of forecasted demand, and senior assistance case intake and tracking. Release 2.0 and 2.1 will add elementary tutoring capabilities and local business sponsor capabilities respectively. Finally release 3.0 will add improved forecasting abilities among other system compatibilities. For more information on the contents of each release refer to the Vision and Scope document.&nbsp;</span></p>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;Provide a short description of the software being specified and its purpose. Relate the software to user or corporate goals and to business objectives and strategies. If a separate vision and scope or similar document is available, refer to it rather than duplicating its contents here. An SRS that specifies an incremental release of an evolving product should contain its own scope statement as a subset of the long-term strategic product vision. You might provide a high-level summary of the major features the release contains or the significant functions that it performs.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:09:19.923Z"
+                }
+              ]
             }
           ]
         },
@@ -75,7 +149,169 @@
             {
               "id": "62",
               "guid": "5aa91c68-192b-42b8-8193-02ce720cb03f",
-              "text": "<p>&lt;List any documents or other resources to which this SRS refers. Include hyperlinks to them if they are in a persistent location. These might include user interface style guides, contracts, standards, system requirements specifications, interface specifications, or the SRS for a related product. Provide enough information so that the reader can access each reference, including its title, author, version number, date, and source, storage location, or URL.&gt;</p>"
+              "text": "<p><a href=\"reqview:open?projectId=ProDevs_GroupProject#VSD-29\">ProDevs_GroupProject/VSD</a> - Vision and Scope Document</p><p><br></p>",
+              "links": {
+                "reference": [
+                  "VSD-29",
+                  "VSD-30",
+                  "VSD-32",
+                  "VSD-33",
+                  "VSD-34",
+                  "VSD-37",
+                  "VSD-38",
+                  "VSD-39",
+                  "VSD-40",
+                  "VSD-41",
+                  "VSD-42",
+                  "VSD-43",
+                  "VSD-44",
+                  "VSD-45",
+                  "VSD-46",
+                  "VSD-49",
+                  "VSD-50",
+                  "VSD-51",
+                  "VSD-52",
+                  "VSD-53",
+                  "VSD-54",
+                  "VSD-55",
+                  "VSD-56",
+                  "VSD-57",
+                  "VSD-58",
+                  "VSD-59",
+                  "VSD-60",
+                  "VSD-62",
+                  "VSD-63",
+                  "VSD-64",
+                  "VSD-65",
+                  "VSD-66",
+                  "VSD-67",
+                  "VSD-68",
+                  "VSD-69",
+                  "VSD-70",
+                  "VSD-71",
+                  "VSD-72",
+                  "VSD-74",
+                  "VSD-84",
+                  "VSD-85",
+                  "VSD-86",
+                  "VSD-87",
+                  "VSD-88"
+                ]
+              },
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;List any documents or other resources to which this SRS refers. Include hyperlinks to them if they are in a persistent location. These might include user interface style guides, contracts, standards, system requirements specifications, interface specifications, or the SRS for a related product. Provide enough information so that the reader can access each reference, including its title, author, version number, date, and source, storage location, or URL.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:14:59.088Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:15:37.632Z"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "VSD-29",
+                      "VSD-30",
+                      "VSD-32",
+                      "VSD-33",
+                      "VSD-34",
+                      "VSD-37",
+                      "VSD-38",
+                      "VSD-39",
+                      "VSD-40",
+                      "VSD-41",
+                      "VSD-42",
+                      "VSD-43",
+                      "VSD-44",
+                      "VSD-45",
+                      "VSD-46",
+                      "VSD-49",
+                      "VSD-50",
+                      "VSD-51",
+                      "VSD-52",
+                      "VSD-53",
+                      "VSD-54",
+                      "VSD-55",
+                      "VSD-56",
+                      "VSD-57",
+                      "VSD-58",
+                      "VSD-59",
+                      "VSD-60",
+                      "VSD-62",
+                      "VSD-63",
+                      "VSD-64",
+                      "VSD-65",
+                      "VSD-66",
+                      "VSD-67",
+                      "VSD-68",
+                      "VSD-69",
+                      "VSD-70",
+                      "VSD-71",
+                      "VSD-72",
+                      "VSD-74",
+                      "VSD-84",
+                      "VSD-85",
+                      "VSD-86",
+                      "VSD-87",
+                      "VSD-88"
+                    ],
+                    "type": "reference"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:19:55.242Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Vision and Scope Docment</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:20:59.092Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p>Vision and Scope Document</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:22:19.209Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p><a href=\"reqview:open?projectId=ProDevs_GroupProject#VSD-29\">ProDevs_GroupProject/VSD</a>&nbsp;</p><p><br></p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-10-15T18:23:14.090Z"
+                }
+              ]
             }
           ]
         }
