@@ -2,24 +2,24 @@
   "id": "SRS",
   "guid": "6197efde-87a0-41ba-bcd7-a3d59fe8558b",
   "name": "Software Requirements Specification",
-  "lastId": 126,
+  "lastId": 132,
   "createdOn": "2026-10-15T17:06:14.182Z",
   "createdBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-10-15T18:24:29.381Z",
+  "lastChangedOn": "2026-10-15T23:24:57.420Z",
   "lastChangedBy": {
-    "name": "T00755277",
-    "email": "t00755277@mytru.ca",
+    "name": "T00755725",
+    "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
     {
       "id": "52",
       "guid": "b0411c25-fbda-4376-93e8-d33b1920fdaf",
-      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>",
+      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr></tbody></table>",
       "history": [
         {
           "attributesChanged": {
@@ -31,6 +31,17 @@
             "name": "T00755277"
           },
           "changedOn": "2026-10-15T18:24:29.381Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00755725@mytru.ca",
+            "name": "T00755725"
+          },
+          "changedOn": "2026-10-15T23:24:57.420Z"
         }
       ]
     },
@@ -39,11 +50,6 @@
       "guid": "fff4e0f3-d950-4faf-949c-c230bd3a00e1",
       "heading": "Introduction",
       "children": [
-        {
-          "id": "54",
-          "guid": "d3845b0a-fbfc-4ba7-b8ab-08417ed1345d",
-          "text": "<p><a>&lt;The introduction presents an overview to help the reader understand how the SRS is organized and how to use it.&gt;</a></p>"
-        },
         {
           "id": "55",
           "guid": "bcd35e36-9d61-4e2a-8e68-05ec774db07d",
@@ -323,11 +329,6 @@
       "heading": "Overall Description",
       "children": [
         {
-          "id": "64",
-          "guid": "23677525-45a5-4387-92e3-80b723fcb78e",
-          "text": "<p>&lt;This section presents a high-level overview of the product and the environment in which it will be used, the anticipated users, and known constraints, assumptions, and dependencies.&gt;</p>"
-        },
-        {
           "id": "65",
           "guid": "f5084150-9307-4f98-9555-cadc41b3c4a1",
           "heading": "Product Perspective",
@@ -335,7 +336,20 @@
             {
               "id": "66",
               "guid": "9045acc0-f2ad-4325-9a8f-5e6eb42a6af3",
-              "text": "<p>&lt;Describe the product's context and origin. Is it the next member of a growing product line, the next version of a mature system, a replacement for an existing application, or an entirely new product? If this SRS defines a component of a larger system, state how this software relates to the overall system and identify major interfaces between the two. Consider including visual models such as a context diagram or ecosystem map to show the product's relationship to other systems.&gt;</p>"
+              "text": "<p>The Volunteer Management System (VMS) is an entirely new, centralized web application designed to bridge the gap between community members in need (specifically senior citizens and elementary education students) and registered volunteers. It serves as a replacement for the previously fragmented, manual volunteer assignment process. The VMS interfaces directly with external entities, notably the Background Check System (BCS) for security clearances and the Senior People Care Center (SPCC) for over-the-phone intake.</p>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;Describe the product's context and origin. Is it the next member of a growing product line, the next version of a mature system, a replacement for an existing application, or an entirely new product? If this SRS defines a component of a larger system, state how this software relates to the overall system and identify major interfaces between the two. Consider including visual models such as a context diagram or ecosystem map to show the product's relationship to other systems.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:18:14.678Z"
+                }
+              ]
             }
           ]
         },
@@ -347,7 +361,20 @@
             {
               "id": "68",
               "guid": "fee156cf-6f46-434a-aeca-f393a4703f17",
-              "text": "<p>&lt;Identify the various user classes that you anticipate will use this product and describe their pertinent characteristics. Some requirements might pertain only to certain user classes. Identify the favored user classes. User classes represent a subset of the stakeholders described in the vision and scope document. User class descriptions are a reusable resource. If available, you can incorporate user class descriptions by simply pointing to them in a master user class catalog instead of duplicating information here.&gt;</p>"
+              "text": "<p>The VMS supports multiple direct and indirect user classes:&nbsp;</p><ul style=\"list-style-type: disc;\"><li><p>Senior People (Favored, Direct): Senior citizens living at home who require daily wellness check calls, appointment reminders, and social support. Due to potential technical problems, their profiles are typically created by SPCC employees over the phone.&nbsp;</p></li><li><p>Volunteers (Favored, Direct): Community members who register to provide support (senior-peers or student-peers). They utilize the application to input their details, select favored activities, and receive matching assignments.&nbsp;</p></li><li><p>Volunteer Administrators (Favored, Direct): System staff responsible for reviewing newly registered volunteers, managing initial screenings, submitting background checks, verifying educational certificates, and planning weekly allocations using forecasted reports.&nbsp;</p></li><li><p>SPCC Employees (Favored, Direct): Care center staff who interact with seniors over the phone, record their data, and create or update their profiles within the VMS.&nbsp;</p></li><li><p>School Administrators (Favored, Indirect / Direct): Educational staff who request volunteer tutors and coaches for young students requiring specialized academic support.&nbsp;</p></li><li><p>Local Business Sponsors (Favored, Indirect): Local shop owners who offer promotions and incentives to engage volunteers, benefiting from increased downtown business transactions.&nbsp;</p></li><li><p>Young Students (Dis-favoured / Ignored, Direct): Elementary students receiving tutoring who do not directly log into the system due to parental and security concerns.&nbsp;</p></li><li><p>General Public / Untracked Citizens (Ignored, Indirect): Citizens are indirectly impacted by reduced crime rates and stronger community cohesion resulting from active volunteer programs.</p></li></ul>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;Identify the various user classes that you anticipate will use this product and describe their pertinent characteristics. Some requirements might pertain only to certain user classes. Identify the favored user classes. User classes represent a subset of the stakeholders described in the vision and scope document. User class descriptions are a reusable resource. If available, you can incorporate user class descriptions by simply pointing to them in a master user class catalog instead of duplicating information here.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:18:24.018Z"
+                }
+              ]
             }
           ]
         },
@@ -371,7 +398,126 @@
             {
               "id": "72",
               "guid": "3f405eab-a199-4f01-b940-56da924dd2e2",
-              "text": "<p>&lt;Describe the environment in which the software will operate, including the hardware platform; operating systems and versions; geographical locations of users, servers, and databases; and organizations that host the related databases, servers, and websites. List any other software components or applications with which the system must peacefully coexist. If extensive technical infrastructure work needs to be performed in conjunction with developing the new system, consider creating a separate infrastructure requirements specification to detail that work.&gt;</p>"
+              "heading": "Platform and Architecture",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>A centralized, web-based application accessible to administrators, care center employees, and volunteers via standard modern web browsers.</p></li><li><p>2-Tier Architecture implemented on the city’s municipal IT infrastructure:</p></li></ul><p><br></p><p><strong>Web Server</strong></p><p><br></p><ul style=\"list-style-type: square;\"><li><p>Operating System: Red Hat Enterprise Linux (RHEL) 9</p></li><li><p>CPU: 4 vCPUs/Cores&nbsp;</p></li><li><p>Memory (RAM): 16 GB&nbsp;</p></li><li><p>Storage: 80 GB SSD (primarily for OS, application binaries, logs, and temporary caching).</p></li><li><p>Network: Gigabit interface with static local IP behind a municipal load balancer/reverse proxy (Nginx/Apache).</p></li></ul><p><br></p><p><strong>Database Server</strong></p><p><br></p><ul style=\"list-style-type: square;\"><li><p>Operating System: Red Hat Enterprise Linux (RHEL) 9</p></li><li><p>Database Management System (DBMS): PostgreSQL 15 (robust relational integrity, excellent indexing, and support for external file path references).</p></li><li><p>CPU: 8 vCPUs/Cores (To handle concurrent administrative screening queries, background check status updates, file metadata indexing, and heavy weekly forecasting reports)</p></li><li><p>Memory (RAM): 32 GB ECC RAM (to handle worst-case scenarios in very congested days with multiple requests at the same time)</p></li><li><p>Storage Capacity: 500 GB NVMe SSD (Configured in RAID 10)</p></li></ul><p><br></p><p><strong>Data Architecture Recommendation for Documents:</strong></p><ul style=\"list-style-type: circle;\"><li><p>Store the PDF files (educational certificates and background checks) in a secure, encrypted local directory</p></li></ul><ul style=\"list-style-type: square;\"><li style=\"list-style-type: none;\"><ul style=\"list-style-type: square;\"><li><p>Store file path, metadata, upload timestamp, and verification status inside the PostgreSQL database.</p></li></ul></li></ul><ul style=\"list-style-type: circle;\"><li><p>Store all other data as tables in PostgreSQL</p></li></ul><p><br></p><p><strong>Backup &amp; Retention Policy:</strong></p><p><br></p><ul style=\"list-style-type: disc;\"><li><p>Automated daily incremental backups with weekly full snapshots, routed to a separate municipal backup server to satisfy data retention and integrity rules.</p></li></ul>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": "<p>&lt;Describe the environment in which the software will operate, including the hardware platform; operating systems and versions; geographical locations of users, servers, and databases; and organizations that host the related databases, servers, and websites. List any other software components or applications with which the system must peacefully coexist. If extensive technical infrastructure work needs to be performed in conjunction with developing the new system, consider creating a separate infrastructure requirements specification to detail that work.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:19:03.247Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul style=\"list-style-type: disc;\"><li><p>A centralized, web-based application accessible to administrators, care center employees, and volunteers via standard modern web browsers.</p></li><li><p>2-Tier Architecture implemented on the city’s municipal IT infrastructure:</p></li></ul><ul style=\"list-style-type: circle;\"><li><p>Web Server</p></li></ul><ul style=\"list-style-type: square;\"><li><p>Operating System: Red Hat Enterprise Linux (RHEL) 9</p></li><li><p>CPU: 4 vCPUs/Cores&nbsp;</p></li><li><p>Memory (RAM): 16 GB&nbsp;</p></li><li><p>Storage: 80 GB SSD (primarily for OS, application binaries, logs, and temporary caching).</p></li><li><p>Network: Gigabit interface with static local IP behind a municipal load balancer/reverse proxy (Nginx/Apache).</p></li></ul><ul style=\"list-style-type: circle;\"><li><p>Database Server</p></li></ul><ul style=\"list-style-type: square;\"><li><p>Operating System: Red Hat Enterprise Linux (RHEL) 9</p></li><li><p>Database Management System (DBMS): PostgreSQL 15 (robust relational integrity, excellent indexing, and support for external file path references).</p></li><li><p>CPU: 8 vCPUs/Cores (To handle concurrent administrative screening queries, background check status updates, file metadata indexing, and heavy weekly forecasting reports)</p></li><li><p>Memory (RAM): 32 GB ECC RAM (to handle worst-case scenarios in very congested days with multiple requests at the same time)</p></li><li><p>Storage Capacity: 500 GB NVMe SSD (Configured in RAID 10)</p></li><li><p>Data Architecture Recommendation for Documents:</p></li></ul><ul style=\"list-style-type: disc;\"><li><p>Hybrid Storage Pattern:&nbsp;</p></li></ul><ul style=\"list-style-type: circle;\"><li><p>Store the PDF files (educational certificates and background checks) in a secure, encrypted local directory</p></li></ul><ul style=\"list-style-type: square;\"><li><p>Store file path, metadata, upload timestamp, and verification status inside the PostgreSQL database.</p></li></ul><ul style=\"list-style-type: circle;\"><li><p>Store all other data as tables in PostgreSQL</p></li></ul><ul style=\"list-style-type: square;\"><li><p>Backup &amp; Retention Policy:</p></li></ul><ul style=\"list-style-type: disc;\"><li><p>Automated daily incremental backups with weekly full snapshots, routed to a separate municipal backup server to satisfy data retention and integrity rules.</p></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:20:29.146Z"
+                }
+              ]
+            },
+            {
+              "id": "127",
+              "guid": "370d6562-5891-4882-8bb7-f8aba7177d42",
+              "heading": "Geographical and Organizational Locations",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>The system operates locally across the city, connecting the municipal administration, the Senior People Care Center (SPCC), local schools, volunteers' homes, and senior residences.&nbsp;</p></li><li><p>Databases and servers are hosted centrally on the city’s municipal IT infrastructure to manage sensitive records securely across different municipal departments.</p></li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "71",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:21:00.844Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:21:00.844Z"
+                }
+              ]
+            },
+            {
+              "id": "128",
+              "guid": "59aef294-944d-4368-aab1-9b0032b23780",
+              "heading": "External Systems and Software Coexistence",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>Background Check System (BCS): An external automated system that interfaces with the VMS to process criminal background checks. Because it incorporates a mandatory manual review step by police officers, it only processes requests during standard working hours.&nbsp;</p></li><li><p>Senior People Care Center (SPCC) Telephony/Intake Tools: Internal communications infrastructure used by SPCC employees to converse with senior citizens over the phone while simultaneously recording or updating their data into the VMS.&nbsp;</p></li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "71",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:21:24.741Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:21:24.741Z"
+                }
+              ]
+            },
+            {
+              "id": "129",
+              "guid": "358b4533-a3c5-4a08-a2d4-e36ec525b2a0",
+              "heading": "Volume and Scalability Parameters",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>Designed to handle highly volatile traffic, ranging from a few cases per day up to hundreds or potentially thousands of cases per day during peak loads.&nbsp;</p></li><li><p>The initial target for the first year is to track 60% of senior cases in the city and provide support to 85% of reported cases, managing an estimated population pool of 10,000 to 15,000 senior cases.&nbsp;</p></li><li><p>Expected student integration volume is initially forecast at approximately 100 students each semester.</p></li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "71",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:21:50.710Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:21:50.710Z"
+                }
+              ]
             }
           ]
         },
@@ -383,7 +529,31 @@
             {
               "id": "74",
               "guid": "dd44d419-7348-43b5-b4e8-531972bd241d",
-              "text": "<p>&lt;Describe any factors that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing or memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; programming language requirements or restrictions.&gt;</p>"
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>External System Operational Limits:</p><ul><li><p>The Background Check System (BCS) functions strictly during standard working hours due to its reliance on manual police validation steps. The VMS architecture must accommodate queueing and delayed batch processing for background checks submitted outside of these windows.&nbsp;</p></li></ul></li><li><p>Government Regulatory and Privacy Policies:</p><ul><li><p>Strict governmental regulations mandate that volunteers are legally prohibited from viewing student personal information unless they are officially and securely matched as a \"student-peer\".&nbsp;</p></li></ul></li><li><p>User Accessibility Constraints:</p><ul><li><p>Due to technical barriers and isolation concerns, senior citizens cannot conveniently log into the web application directly. Therefore, the system design must accommodate telephone-based intake workflows managed exclusively by SPCC employees on behalf of seniors.&nbsp;</p></li></ul></li><li><p>Security and Authentication Restrictions:</p><ul><li><p>To protect vulnerable populations (seniors and young children), direct student login is disabled due to parental security concerns, requiring all youth coaching requests to be mediated through school administrators.</p></li></ul></li><li><p>Municipal Infrastructure &amp; Operating Environment Constraints:</p><ul><li><p>The system must be deployed exclusively within the city's municipal IT infrastructure using a 2-tier architecture running Red Hat Enterprise Linux (RHEL) 9 on both the web and database servers.</p></li></ul></li><li><p>Storage and Document Management Constraints:</p><ul><li><p>To prevent relational database bloat and maintain performance, the system must enforce a hybrid storage pattern for compliance records: educational certificates and police background check PDFs must be stored in a secure, encrypted local directory, while file paths, metadata, upload timestamps, and verification statuses are indexed in PostgreSQL 15.</p></li></ul></li></ul>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;Describe any factors that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing or memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; programming language requirements or restrictions.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:22:04.182Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul style=\"list-style-type: disc;\"><li><p>External System Operational Limits: The Background Check System (BCS) functions strictly during standard working hours due to its reliance on manual police validation steps. The VMS architecture must accommodate queueing and delayed batch processing for background checks submitted outside of these windows.&nbsp;</p></li><li><p>Government Regulatory and Privacy Policies: Strict governmental regulations mandate that volunteers are legally prohibited from viewing student personal information unless they are officially and securely matched as a \"student-peer\".&nbsp;</p></li><li><p>User Accessibility Constraints: Due to technical barriers and isolation concerns, senior citizens cannot conveniently log into the web application directly. Therefore, the system design must accommodate telephone-based intake workflows managed exclusively by SPCC employees on behalf of seniors.&nbsp;</p></li><li><p>Security and Authentication Restrictions: To protect vulnerable populations (seniors and young children), direct student login is disabled due to parental security concerns, requiring all youth coaching requests to be mediated through school administrators.</p></li><li><p>Municipal Infrastructure &amp; Operating Environment Constraints: The system must be deployed exclusively within the city's municipal IT infrastructure using a 2-tier architecture running Red Hat Enterprise Linux (RHEL) 9 on both the web and database servers.</p></li><li><p>Storage and Document Management Constraints: To prevent relational database bloat and maintain performance, the system must enforce a hybrid storage pattern for compliance records: educational certificates and police background check PDFs must be stored in a secure, encrypted local directory, while file paths, metadata, upload timestamps, and verification statuses are indexed in PostgreSQL 15.</p></li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:22:34.546Z"
+                }
+              ]
             }
           ]
         },
@@ -395,7 +565,115 @@
             {
               "id": "76",
               "guid": "cfd4eadb-ddab-4056-b314-0ce120d78a33",
-              "text": "<p>&lt;List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, reuse expectations, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors outside its control.&gt;</p>"
+              "heading": "Hardware and Infrastructure Assumptions",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>The municipal IT infrastructure will reliably support the specified RHEL 9 web server configuration (4 vCPUs, 16 GB RAM, 80 GB SSD) and database server configuration (8 vCPUs, 32 GB ECC RAM, 500 GB NVMe SSD in RAID 10).&nbsp;</p></li><li><p>Automated daily incremental backups, weekly full snapshots, and routing to a separate municipal backup server will successfully execute to satisfy data retention and integrity rules.</p></li></ul>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": "<p>&lt;List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, reuse expectations, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors outside its control.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:23:21.514Z"
+                }
+              ]
+            },
+            {
+              "id": "130",
+              "guid": "588dd958-4ba0-4782-81c8-7dec8e1e7a12",
+              "heading": "Document and Data Assumptions",
+              "text": "<p>Educational certificates and background check documents received during onboarding will be successfully digitized, processed, and managed via the hybrid file storage and database indexing pattern.</p>",
+              "history": [
+                {
+                  "affectedNodeId": "75",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:23:37.484Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:23:37.484Z"
+                }
+              ]
+            },
+            {
+              "id": "131",
+              "guid": "634cce55-0730-4839-a8bf-c93744a1396b",
+              "heading": "Business and Operational Assumptions",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>The Background Check System (BCS) will be fully developed, tested, and deployed by the municipal government within the designated timeframe (ready by the end of the next month / next few months) and will achieve a processing capability of 1,000 background checks per hour with a 48-hour turnaround time.&nbsp;</p></li><li><p>Local business owners and downtown merchants will participate as sponsors by offering promotional incentives to volunteers, creating a sustainable motivational loop that supports local economic transactions.&nbsp;</p></li><li><p>Historical and incoming case data will follow predictable statistical distributions, allowing the VMS analytics engine to accurately forecast weekly case volumes and reduce volunteer assignment time down to 3 days (a 30% reduction from the previous two-week manual average).</p></li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "75",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:23:54.744Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:23:54.744Z"
+                }
+              ]
+            },
+            {
+              "id": "132",
+              "guid": "c56a5ea0-322f-4446-8578-ae42162de387",
+              "heading": "System Dependencies",
+              "text": "<ul style=\"list-style-type: disc;\"><li><p>Successful and timely volunteer onboarding depends directly on the operational availability, uptime, and processing speed of the external Background Check System (BCS) and police officer verification pipeline.&nbsp;</p></li><li><p>The VMS depends on the continuous operational staffing of the Senior People Care Center (SPCC) to bridge the digital divide for senior citizens requiring profile creation and daily health tracking.</p></li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "75",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:24:08.344Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-10-15T23:24:08.344Z"
+                }
+              ]
             }
           ]
         }
