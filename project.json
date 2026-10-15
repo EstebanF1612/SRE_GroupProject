@@ -1,7 +1,8 @@
 {
   "id": "ProDevs_GroupProject",
   "documents": [
-    "VSD.json"
+    "VSD.json",
+    "SRS.json"
   ],
   "traceability": {
     "reference": {

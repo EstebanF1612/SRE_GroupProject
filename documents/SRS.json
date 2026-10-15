@@ -1,0 +1,41 @@
+{
+  "id": "SRS",
+  "guid": "6197efde-87a0-41ba-bcd7-a3d59fe8558b",
+  "name": "Software Requirements Specification",
+  "lastId": 0,
+  "createdOn": "2026-10-15T17:06:14.182Z",
+  "createdBy": {
+    "name": "T00755725",
+    "email": "t00755725@mytru.ca",
+    "company": "Thompson Rivers University"
+  },
+  "lastChangedOn": "2026-10-15T17:06:14.182Z",
+  "lastChangedBy": {
+    "name": "T00755725",
+    "email": "t00755725@mytru.ca",
+    "company": "Thompson Rivers University"
+  },
+  "data": [],
+  "attributes": {
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.22"
+  }
+}
