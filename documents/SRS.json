@@ -9,7 +9,7 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-10-20T04:56:11.446Z",
+  "lastChangedOn": "2026-10-20T05:03:39.868Z",
   "lastChangedBy": {
     "name": "T00749376",
     "email": "t00749376@mytru.ca",
@@ -19,7 +19,7 @@
     {
       "id": "52",
       "guid": "b0411c25-fbda-4376-93e8-d33b1920fdaf",
-      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr></tbody></table>",
+      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr><tr><td style=\"width:1.5in;\">Jacob Dunn<br></td><td style=\"width:58.5pt;\">Oct 19<br></td><td style=\"width:247.7pt;\">worked on section 2.3<br></td><td style=\"width:1.1in;\">3.0<br></td></tr></tbody></table><p><br></p>",
       "history": [
         {
           "attributesChanged": {
@@ -42,6 +42,28 @@
             "name": "T00755725"
           },
           "changedOn": "2026-10-15T23:24:57.420Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00749376@mytru.ca",
+            "name": "T00749376"
+          },
+          "changedOn": "2026-10-20T05:02:10.775Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr></tbody></table><table style=\"width: 100%;\"><colgroup><col style=\"width: 22.1435%;\"><col style=\"width: 12.9512%;\"><col style=\"width: 47.7889%;\"><col style=\"width: 17.1164%;\"></colgroup><tbody><tr><td>Jacob Dunn</td><td>Oct 19</td><td>worked on section 2.3</td><td>3.0</td></tr></tbody></table><p><br></p>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00749376@mytru.ca",
+            "name": "T00749376"
+          },
+          "changedOn": "2026-10-20T05:03:39.868Z"
         }
       ]
     },
