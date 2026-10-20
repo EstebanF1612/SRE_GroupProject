@@ -2,17 +2,17 @@
   "id": "SRS",
   "guid": "6197efde-87a0-41ba-bcd7-a3d59fe8558b",
   "name": "Software Requirements Specification",
-  "lastId": 132,
+  "lastId": 136,
   "createdOn": "2026-10-15T17:06:14.182Z",
   "createdBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-10-15T23:24:57.420Z",
+  "lastChangedOn": "2026-10-20T04:56:11.446Z",
   "lastChangedBy": {
-    "name": "T00755725",
-    "email": "t00755725@mytru.ca",
+    "name": "T00749376",
+    "email": "t00749376@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
@@ -384,9 +384,176 @@
           "heading": "Use Cases and Models",
           "children": [
             {
-              "id": "70",
-              "guid": "1755c28a-9354-4022-a29e-87497a7d82e5",
-              "text": "<p>&lt;Identify the main use cases of the system and report them following the template. Model the use cases by drawing the Use Case diagrams and Activity diagrams.&gt;</p>"
+              "id": "133",
+              "guid": "4364373f-91c6-4240-a0f5-ca11e9e7c2bd",
+              "heading": "Primary Use Case Catalog",
+              "text": "<table><tbody><tr><td><p>Use Case ID</p></td><td><p>Use Case Name</p></td><td><p>Primary Person</p></td><td><p>Secondary Person</p></td><td><p>Description</p></td></tr><tr><td><p>UC-01</p></td><td><p>Create Senior Profile</p></td><td><p>SPCC Employee</p></td><td><p>Senior Person</p></td><td><p>Allows SPCC staff to register a senior person’s personal and support over the phone</p></td></tr><tr><td><p>UC-02</p></td><td><p>Register Volunteer</p></td><td><p>Volunteer</p></td><td><p>None</p></td><td><p>Allows prospective volunteer to register by entering their info</p></td></tr><tr><td><p>UC-03</p></td><td><p>Submit for Background check</p></td><td><p>Volunteer Admin</p></td><td><p>External Background Check System</p></td><td><p>Submits new volunteers details to the external automated police check system</p></td></tr><tr><td><p>UC-04</p></td><td><p>Verify Educational Credentials</p></td><td><p>Volunteer Admin</p></td><td><p>External Education Verification DB/ School Admin</p></td><td><p>Verifies academic qualifications for volunteers applying to tutor</p></td></tr><tr><td><p>UC-05</p></td><td><p>Approve Volunteer</p></td><td><p>Volunteer Admin</p></td><td><p>Volunteer</p></td><td><p>Formally approve a volunteer after passing background and skill checks</p></td></tr><tr><td><p>UC-06</p></td><td><p>Request Student Tutoring</p></td><td><p>School Admin</p></td><td><p>Volunteer Admin</p></td><td><p>Enables school admin to submit requests for student tutoring</p></td></tr><tr><td><p>UC-07</p></td><td><p>Generate Daily Forecast Report</p></td><td><p>System Admin</p></td><td><p>Volunteer Admin</p></td><td><p>Automatically calculates and delivers a daily report with forecasted cases for the week</p></td></tr><tr><td><p>UC-08</p></td><td><p>Recommend Volunteer Match</p></td><td><p>System</p></td><td><p>Volunteer, Senior Person</p></td><td><p>Matches volunteer preferences and skills with active senior or student cases</p></td></tr><tr><td><p>UC-09</p></td><td><p>Track Volunteer Engagement</p></td><td><p>System/ Volunteer Admin</p></td><td><p>Volunteer</p></td><td><p>Tracks volunteer commitment and reports early warnings.</p></td></tr></tbody></table>",
+              "history": [
+                {
+                  "affectedNodeId": "69",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:49:35.128Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:49:35.128Z"
+                }
+              ]
+            },
+            {
+              "id": "134",
+              "guid": "f974c493-182f-43b7-a53e-1e768efec386",
+              "heading": "Detailed Use Case Specifications",
+              "text": "<p><strong>1. Detailed Use Case: Create New Volunteer (UC-02)</strong></p><ul type=\"disc\"><li><strong>Use Case ID:</strong> UC-02</li><li><strong>Use Case Name:</strong> Create New Volunteer&nbsp;</li><li><strong>Primary Person:</strong> Volunteer&nbsp;</li><li><strong>Secondary Person:</strong> None&nbsp;</li><li><strong>Trigger:</strong> Prospective volunteer accesses the system/application to register.&nbsp;</li><li><strong>Preconditions:</strong><ol start=\"1\" type=\"1\"><li>The VMS portal is active and accessible online.&nbsp;</li><li>The applicant has not previously registered an active account.</li></ol></li><li><strong>Postconditions:</strong><ol start=\"1\" type=\"1\"><li>A new volunteer profile is created with status set to Pending Screening.</li><li>Profile data is saved in the database for admin review.&nbsp;</li></ol></li><li><strong>Main Success Scenario:</strong><ol start=\"1\" type=\"1\"><li>Volunteer opens the VMS registration page.&nbsp;</li><li>System displays the volunteer registration form.&nbsp;</li><li>Volunteer enters personal information (Name, Phone Number, Home Address).&nbsp;</li><li>Volunteer selects preferred volunteer activities (e.g., Senior daily calls, Student tutoring).&nbsp;</li><li>Volunteer uploads supporting documents (if applying for tutoring).&nbsp;</li><li>System validates the submitted data format.</li><li>System saves the profile and assigns status Pending Screening.</li><li>System displays a confirmation message to the volunteer.</li></ol></li><li><strong>Extensions (Alternative Flows):</strong><ul type=\"circle\"><li><em>6a. Incomplete or Invalid Data Input:</em><ol start=\"1\" type=\"1\"><li>System highlights missing or invalid fields (e.g., invalid phone number format).</li><li>System prompts the volunteer to re-enter corrected information.</li><li>Resume at Step 3.</li></ol></li><li><em>5a. Volunteer indicates interest in Student Tutoring without uploading proof of education:</em></li></ul></li></ul><p>System prompts that educational credentials are required for tutoring.&nbsp;</p><p>Volunteer uploads credentials or unchecks student tutoring to proceed.</p><ul type=\"disc\"><li><strong>Special Requirements:</strong> Must provide a simple user interface to boost user engagement.&nbsp;</li></ul><p><strong>&nbsp;</strong></p><p><br></p><p><strong>2. Detailed Use Case: Approve New Volunteer (UC-06)</strong></p><ul type=\"disc\"><li><strong>Use Case ID:</strong> UC-05</li><li><strong>Use Case Name:</strong> Approve New Volunteer&nbsp;</li><li><strong>Primary Person:</strong> Volunteer Administrator&nbsp;</li><li><strong>Secondary Person:</strong> External Background Check System, Volunteer&nbsp;</li><li><strong>Trigger:</strong> Admin selects a pending volunteer profile for review.&nbsp;</li><li><strong>Preconditions:</strong><ol start=\"1\" type=\"1\"><li>The volunteer profile exists in state Pending Screening.&nbsp;</li><li>External Background Check System (BCS) is online and working.&nbsp;</li></ol></li><li><strong>Postconditions:</strong><ol start=\"1\" type=\"1\"><li>The volunteer profile status is updated to Approved (or Rejected).&nbsp;</li><li>The volunteer becomes eligible for system matching recommendations.&nbsp;</li></ol></li><li><strong>Main Success Scenario:</strong><ol start=\"1\" type=\"1\"><li>Administrator logs into VMS and views pending volunteer profiles.&nbsp;</li><li>Administrator conducts initial screening of profile data.&nbsp;</li><li>Administrator submits profile to the external BCS for police certificate check.&nbsp;</li><li>External BCS processes the check and returns a Passed status within 48 hours.&nbsp;</li><li><em>(If tutor)</em> Administrator verifies educational credentials.&nbsp;</li><li>Administrator sets volunteer status to Approved.&nbsp;</li><li>System sends approval notification to the volunteer.</li></ol></li><li><strong>Extensions:</strong><ul type=\"circle\"><li><em>4a. BCS returns a Failed or flagged check:</em><ol start=\"1\" type=\"1\"><li>System logs police check failure.&nbsp;</li><li>Administrator changes status to Rejected.</li><li>System notifies applicant of status determination; process ends.</li></ol></li><li><em>4b. BCS request submitted outside working hours:</em></li></ul></li></ul><p>BCS queues request until normal working hours.&nbsp;</p><p>System notifies Administrator that request is queued in external BCS.&nbsp;</p><ul type=\"disc\"><ul type=\"circle\"><li><em>5a. Educational credentials invalid or insufficient:</em></li></ul></ul><p>Administrator marks student tutoring role as rejected.&nbsp;</p><p>Administrator restricts volunteer approval to senior services only.&nbsp;</p><ul type=\"disc\"><li><strong>Special Requirements:</strong> Integration with external BCS.&nbsp;</li></ul><p><br></p><p><br></p><p><strong>3. Detailed Use Case: Generate Daily Report (UC-07)</strong></p><ul type=\"disc\"><li><strong>Use Case ID:</strong> UC-07</li><li><strong>Use Case Name:</strong> Generate Daily Report&nbsp;</li><li><strong>Primary Actor:</strong> System (Daily Schedule at 06:00 AM)&nbsp;</li><li><strong>Secondary Actor(s):</strong> Volunteer Admin</li><li><strong>Trigger:</strong> System daily timer triggers a configured schedule, or an Admin requests a report manually.</li><li><strong>Preconditions:</strong><ol start=\"1\" type=\"1\"><li>Historical demand and active senior/student case data exist in the database.&nbsp;</li></ol></li><li><strong>Postconditions:</strong><ol start=\"1\" type=\"1\"><li>System generates a daily forecast report for the upcoming week.&nbsp;</li><li>Report is delivered to the Volunteer Admin dashboard/email.&nbsp;</li></ol></li><li><strong>Main Success Scenario:</strong><ol start=\"1\" type=\"1\"><li>Scheduled timer triggers system execution at 06:00 AM daily.&nbsp;</li><li>System records active, closed, and pending senior and student cases.&nbsp;</li><li>System runs algorithm to estimate needed cases for the next 7 days.&nbsp;</li><li>System compiles volunteer availability and flags potential incompatibilities.&nbsp;</li><li>System generates the Daily Forecast &amp; Management Report.&nbsp;</li><li>System delivers notification/report to Volunteer Admins.&nbsp;</li></ol></li><li><strong>Extensions (Alternative Flows):</strong><ul type=\"circle\"><li><em>4a. Forecasted demand exceeds available volunteer capacity:</em><ol start=\"1\" type=\"1\"><li>System generates a High Risk Shortage Alert.&nbsp;</li><li>System highlights recommended volunteer re-assignments to severe cases.&nbsp;</li><li>Administrator reviews alert to take manual re-assignment actions.&nbsp;</li></ol></li></ul></li><li><strong>Special Requirements:</strong> Report must complete generation within 60 seconds to prevent administrative delay.</li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "69",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:50:22.803Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null,
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:50:22.803Z"
+                }
+              ]
+            },
+            {
+              "id": "135",
+              "guid": "394ebb8a-457a-4671-b334-66e0d66b9f43",
+              "heading": "Use Case Diagram",
+              "attachments": [
+                "SRS-135_1_UseCaseDiagram.png"
+              ],
+              "history": [
+                {
+                  "affectedNodeId": "69",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:52:15.002Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:52:15.002Z"
+                },
+                {
+                  "addedAttachment": "SRS-135_1_Picture1.png",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:54:05.452Z"
+                },
+                {
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:54:22.277Z",
+                  "removedAttachment": "SRS-135_1_Picture1.png"
+                },
+                {
+                  "addedAttachment": "SRS-135_1_UseCaseDiagram.png",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:55:58.802Z"
+                }
+              ]
+            },
+            {
+              "id": "136",
+              "guid": "5ad7602c-ef9a-4bcc-8410-9686dcab85c8",
+              "heading": "Activity Diagram",
+              "attachments": [
+                "SRS-136_1_Activity1.png",
+                "SRS-136_2_Activity2.png"
+              ],
+              "history": [
+                {
+                  "affectedNodeId": "69",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:52:27.777Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "heading": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:52:27.777Z"
+                },
+                {
+                  "addedAttachment": "SRS-136_1_Activity1.png",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:56:06.486Z"
+                },
+                {
+                  "addedAttachment": "SRS-136_2_Activity2.png",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-10-20T04:56:11.446Z"
+                }
+              ]
             }
           ]
         },
