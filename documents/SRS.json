@@ -2,68 +2,46 @@
   "id": "SRS",
   "guid": "6197efde-87a0-41ba-bcd7-a3d59fe8558b",
   "name": "Software Requirements Specification",
-  "lastId": 136,
+  "lastId": 148,
   "createdOn": "2026-10-15T17:06:14.182Z",
   "createdBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-10-20T05:03:39.868Z",
+  "lastChangedOn": "2026-11-06T21:02:21.798Z",
   "lastChangedBy": {
-    "name": "T00749376",
-    "email": "t00749376@mytru.ca",
+    "name": "T00755725",
+    "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
     {
-      "id": "52",
-      "guid": "b0411c25-fbda-4376-93e8-d33b1920fdaf",
-      "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr><tr><td style=\"width:1.5in;\">Jacob Dunn<br></td><td style=\"width:58.5pt;\">Oct 19<br></td><td style=\"width:247.7pt;\">worked on section 2.3<br></td><td style=\"width:1.1in;\">3.0<br></td></tr></tbody></table><p><br></p>",
+      "id": "148",
+      "guid": "b51d275d-a664-4a08-91e0-20b22f6d1ef2",
+      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr></tbody></table>",
       "history": [
         {
-          "attributesChanged": {
-            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>"
-          },
+          "affectedNodeId": "#",
           "changedBy": {
             "company": "Thompson Rivers University",
-            "email": "t00755277@mytru.ca",
-            "name": "T00755277"
+            "email": "t00755725@mytru.ca",
+            "name": "T00755725"
           },
-          "changedOn": "2026-10-15T18:24:29.381Z"
+          "changedOn": "2026-11-06T21:02:08.939Z",
+          "docId": "SRS",
+          "structureAction": "Create"
         },
         {
           "attributesChanged": {
-            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;</p></td><td style=\"width:58.5pt;\"><p>&nbsp;</p></td><td style=\"width:247.7pt;\"><p>&nbsp;</p></td><td style=\"width:1.1in;\"><p>&nbsp;</p></td></tr></tbody></table>"
+            "text": null
           },
           "changedBy": {
             "company": "Thompson Rivers University",
             "email": "t00755725@mytru.ca",
             "name": "T00755725"
           },
-          "changedOn": "2026-10-15T23:24:57.420Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr></tbody></table>"
-          },
-          "changedBy": {
-            "company": "Thompson Rivers University",
-            "email": "t00749376@mytru.ca",
-            "name": "T00749376"
-          },
-          "changedOn": "2026-10-20T05:02:10.775Z"
-        },
-        {
-          "attributesChanged": {
-            "text": "<p><a>Revision History</a></p><table><tbody><tr><td style=\"width:1.5in;\"><p><strong>Name</strong></p></td><td style=\"width:58.5pt;\"><p><strong>Date</strong></p></td><td style=\"width:247.7pt;\"><p><strong>Reason For Changes</strong></p></td><td style=\"width:1.1in;\"><p><strong>Version</strong></p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Kohen Cound</p></td><td style=\"width:58.5pt;\"><p>&nbsp;October 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 1</p></td><td style=\"width:1.1in;\"><p>&nbsp;1.0</p></td></tr><tr><td style=\"width:1.5in;\"><p>&nbsp;Esteban Flores</p></td><td style=\"width:58.5pt;\"><p>&nbsp;Oct 15</p></td><td style=\"width:247.7pt;\"><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td style=\"width:1.1in;\"><p>&nbsp;2.0</p></td></tr></tbody></table><table style=\"width: 100%;\"><colgroup><col style=\"width: 22.1435%;\"><col style=\"width: 12.9512%;\"><col style=\"width: 47.7889%;\"><col style=\"width: 17.1164%;\"></colgroup><tbody><tr><td>Jacob Dunn</td><td>Oct 19</td><td>worked on section 2.3</td><td>3.0</td></tr></tbody></table><p><br></p>"
-          },
-          "changedBy": {
-            "company": "Thompson Rivers University",
-            "email": "t00749376@mytru.ca",
-            "name": "T00749376"
-          },
-          "changedOn": "2026-10-20T05:03:39.868Z"
+          "changedOn": "2026-11-06T21:02:08.939Z"
         }
       ]
     },
@@ -939,11 +917,6 @@
       "heading": "Data Requirements",
       "children": [
         {
-          "id": "89",
-          "guid": "c135e041-c4d7-4968-a641-570bced43cae",
-          "text": "<p>&lt;This section describes various aspects of the data that the system will consume as inputs, process in some fashion, or create as outputs.&gt;</p>"
-        },
-        {
           "id": "90",
           "guid": "843e6ee5-9d19-4f21-a719-5848c8c4e242",
           "heading": "Logical Data Model",
@@ -951,7 +924,39 @@
             {
               "id": "91",
               "guid": "7e73d2b5-ab08-4e20-afac-a012939f6d03",
-              "text": "<p>&lt;A data model is a visual representation of the data objects and collections the system will process and the relationships between them. Include a data model for the business operations being addressed by the system, or a logical representation for the data that the system itself will manipulate. Data models are most commonly created as an entity-relationship diagram.&gt;</p>"
+              "text": "<p dir=\"ltr\">The Logical Data Model for the Volunteer Management System (VMS) establishes the structural relationships between core data entities required to support senior intake operations, volunteer tracking, automated demand forecasting, background check verification, and downtown sponsor reward redemption.</p><p dir=\"ltr\">The data model captures entity attributes, primary keys, and cardinality constraints (one-to-one, one-to-many, and many-to-many relationships) governing system workflows. The complete Entity-Relationship Diagram (ERD) and its corresponding symbol notations are provided in Appendix B: Analysis Models of this document.</p>",
+              "links": {
+                "reference": [
+                  "SRS-142"
+                ]
+              },
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;A data model is a visual representation of the data objects and collections the system will process and the relationships between them. Include a data model for the business operations being addressed by the system, or a logical representation for the data that the system itself will manipulate. Data models are most commonly created as an entity-relationship diagram.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:51:07.303Z"
+                },
+                {
+                  "addedLink": {
+                    "target": [
+                      "SRS-142"
+                    ],
+                    "type": "reference"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:59:42.179Z"
+                }
+              ]
             }
           ]
         },
@@ -963,7 +968,49 @@
             {
               "id": "93",
               "guid": "a8d6fa6e-9f0a-4a5a-a7e2-755f8816b100",
-              "text": "<p>&lt;The data dictionary defines the composition of data structures and the meaning, data type, length, format, and allowed values for the data elements that make up those structures. In many cases, you're better off storing the data dictionary as a separate artifact, rather than embedding it in the middle of an SRS. That also increases its reusability potential in other projects.&gt;</p>"
+              "text": "<p>The data dictionary defines the structure, data types, formats, length constraints, and allowed values for the primary data elements manipulated by the VMS database. &nbsp;&nbsp;</p>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;The data dictionary defines the composition of data structures and the meaning, data type, length, format, and allowed values for the data elements that make up those structures. In many cases, you're better off storing the data dictionary as a separate artifact, rather than embedding it in the middle of an SRS. That also increases its reusability potential in other projects.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:54:36.499Z"
+                }
+              ]
+            },
+            {
+              "id": "144",
+              "guid": "aa78cdc8-bce0-45e4-9732-b0a77f536503",
+              "text": "<p><br></p><table><thead><tr><th>Data Element Name</th><th>Composed Elements / Attributes</th><th>Data Type &amp; Format</th><th>Length / Constraints</th><th>Description</th></tr></thead><tbody><tr><td>1. Volunteer Profile (<code>Volunteer</code>)</td><td><p><code>ID</code></p><p><code>Name</code></p><p><code>PhoneNumber</code></p></td><td><p dir=\"ltr\">UUID (Primary Key)</p><p dir=\"ltr\">String (UTF-8)</p><p dir=\"ltr\">String (E.164 format)</p></td><td><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Format: <code>+1-XXX-XXX-XXXX</code></p></td><td><p dir=\"ltr\">Core record containing applicant contact details for registered community volunteers. &nbsp;&nbsp;</p><p><br></p></td></tr><tr><td>2. Senior Person Profile (<code>Senior</code>)</td><td><p><code>ID</code></p><p><code>Name</code></p><p><code>Birth_Date</code></p><p><code>Address</code></p><p><code>PhoneNum</code></p></td><td><p dir=\"ltr\">UUID (Primary Key)</p><p dir=\"ltr\">String (UTF-8)</p><p dir=\"ltr\">Date (ISO 8601)</p><p dir=\"ltr\">String</p><p dir=\"ltr\">String</p></td><td><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Format: <code>YYYY-MM-DD</code></p><p dir=\"ltr\">Max 250 chars</p><p dir=\"ltr\">Format: <code>+1-XXX-XXX-XXXX</code></p></td><td><p dir=\"ltr\">Record capturing elderly citizen details and location data, registered over the phone by care center staff. &nbsp;&nbsp;</p><p dir=\"auto\"><br></p><p><br></p></td></tr><tr><td>3. Support Case (<code>Support_Case</code>)</td><td><p><code>ID</code></p><p><code>Date</code></p><p><code>Status</code></p><p><code>Urgency</code></p></td><td><p dir=\"ltr\">UUID (Primary Key)</p><p dir=\"ltr\">DateTime (ISO 8601)</p><p dir=\"ltr\">Enum</p><p dir=\"ltr\">Enum</p></td><td><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Format: <code>YYYY-MM-DD HH:MM:SS</code></p><p dir=\"ltr\">Values: <code>['Open', 'InProg', 'Closed']</code></p><p dir=\"ltr\">Values: <code>['Low', 'Medium', 'High', 'Severe']</code></p></td><td><p dir=\"ltr\">Represents active care requests or check-ins generated for seniors needing support. &nbsp;&nbsp;</p><p dir=\"auto\"><br></p><p><br></p></td></tr><tr><td>4. Background Check Record (<code>BCS_Record</code>)</td><td><p><code>ID</code></p><p><code>FilePath</code></p><p><code>Status</code></p></td><td><p dir=\"ltr\">UUID (Primary Key)</p><p dir=\"ltr\">String (URI)</p><p dir=\"ltr\">Enum</p></td><td><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Encrypted local storage path</p><p dir=\"ltr\">Values: <code>['Pending', 'Passed', 'Failed']</code></p></td><td><p dir=\"ltr\">Manages external police clearance data interchange and secure certificate storage. &nbsp;&nbsp;</p><p><br></p></td></tr><tr><td>5. Forecast Report (<code>Forecast_Report</code>)</td><td><p><code>ID</code></p><p><code>Date</code></p><p><code>SeniorDemand</code></p><p><code>StudentDemand</code></p><p><code>AvailableVolunteers</code></p><p><code>Shortage</code></p></td><td><p dir=\"ltr\">UUID (Primary Key)</p><p dir=\"ltr\">Date (ISO 8601)</p><p dir=\"ltr\">Integer</p><p dir=\"ltr\">Integer</p><p dir=\"ltr\">Integer</p><p dir=\"ltr\">Boolean</p></td><td><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Format: <code>YYYY-MM-DD</code></p><p dir=\"ltr\">Range: <code>0 – 15,000</code></p><p dir=\"ltr\">Range: <code>0 – 1,000</code></p><p dir=\"ltr\">Range: <code>0 – 5,000</code></p><p dir=\"ltr\">Values: <code>True / False</code></p></td><td><p dir=\"ltr\">Automated analytics output generated daily at 06:00 AM to predict weekly resource deficits. &nbsp;&nbsp;</p><p><br></p></td></tr><tr><td>6. Sponsor Reward (<code>SponsorReward</code>)</td><td><p><code>ID</code></p><p><code>Sponsor</code></p><p><code>Type</code></p><p><code>ValidDate</code></p><p><code>isValid</code></p></td><td><p dir=\"ltr\">UUID (Primary Key)</p><p dir=\"ltr\">String (UTF-8)</p><p dir=\"ltr\">String</p><p dir=\"ltr\">Date (ISO 8601)</p><p dir=\"ltr\">Boolean</p></td><td><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Max 100 chars</p><p dir=\"ltr\">Format: <code>YYYY-MM-DD</code></p><p dir=\"ltr\">Values: <code>True / False</code></p></td><td><p dir=\"ltr\">Tracks promotional discounts and incentive offers provided by local downtown businesses for active volunteers. &nbsp;&nbsp;</p><p><br></p></td></tr></tbody></table>",
+              "history": [
+                {
+                  "affectedNodeId": "92",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:54:18.667Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:56:17.281Z"
+                }
+              ]
             }
           ]
         },
@@ -1165,6 +1212,224 @@
           "id": "126",
           "guid": "9dea36e3-744d-42ff-a675-f7491865a0d9",
           "text": "<p>&lt;This optional section includes or points to pertinent analysis models such as data flow diagrams, feature trees, state-transition diagrams, or entity-relationship diagrams. You might prefer to insert certain models into the relevant sections of the specification instead of collecting them at the end.&gt;</p>"
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "guid": "fe5d1386-64ea-490d-8119-5ca2c15d2875",
+      "heading": "Appendices",
+      "history": [
+        {
+          "affectedNodeId": "#",
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00755725@mytru.ca",
+            "name": "T00755725"
+          },
+          "changedOn": "2026-11-06T20:53:02.543Z",
+          "docId": "SRS",
+          "structureAction": "Create"
+        },
+        {
+          "attributesChanged": {
+            "heading": null
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00755725@mytru.ca",
+            "name": "T00755725"
+          },
+          "changedOn": "2026-11-06T20:53:02.543Z"
+        }
+      ],
+      "children": [
+        {
+          "id": "141",
+          "guid": "eaae8b69-b156-46b0-bd23-1b483bd100f9",
+          "heading": "Appendix A",
+          "history": [
+            {
+              "affectedNodeId": "140",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:53:14.182Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:53:14.182Z"
+            }
+          ]
+        },
+        {
+          "id": "142",
+          "guid": "831ef421-0c37-49bd-8d32-b0018f4474fc",
+          "heading": "Appendix B: Analysis Models",
+          "history": [
+            {
+              "affectedNodeId": "140",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:53:31.076Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:53:31.076Z"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Appendix B"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:56:46.522Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "146",
+              "guid": "0b2b03c7-69f5-4136-bbf5-8a54ab24e242",
+              "attachments": [
+                "SRS-146_1_Screenshot 2026-11-06 135900.png"
+              ],
+              "history": [
+                {
+                  "affectedNodeId": "142",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:58:43.493Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "addedAttachment": "SRS-146_1_Screenshot 2026-11-06 135900.png",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:59:18.794Z"
+                }
+              ]
+            },
+            {
+              "id": "145",
+              "guid": "cccc45fb-0cab-4a18-b2ba-8d944f1c3c74",
+              "attachments": [
+                "SRS-145_1_SRS ERD Logical Data Model.pdf"
+              ],
+              "history": [
+                {
+                  "affectedNodeId": "142",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:57:17.817Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "addedAttachment": "SRS-145_1_SRS ERD Logical Data Model.pdf",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T20:57:54.392Z"
+                }
+              ]
+            },
+            {
+              "id": "147",
+              "guid": "fb6aff93-5582-4b66-a407-500249de526e",
+              "text": "<p>ERD Symbol Legend &amp; Notation Descriptions</p><ul dir=\"ltr\"><li><p dir=\"ltr\">Rectangles: Represent system Entities (core data objects/tables within the VMS domain, such as <code>Volunteer</code>, <code>Senior</code>, and <code>Support_Case</code>).</p></li><li><p dir=\"ltr\">Ovals / Ellipses: Represent Attributes (specific properties or data fields describing an entity, such as <code>Name</code>, <code>PhoneNumber</code>, and <code>Address</code>).</p><ul dir=\"ltr\"><li><p dir=\"ltr\">Underlined or Key Ovals: Indicate the Primary Key (ID) uniquely identifying each entity record.</p></li><li><p dir=\"ltr\">Dashed Ovals: Represent derived, optional, or multi-valued attributes (e.g., <code>Age</code> or <code>isValid</code>).</p></li></ul></li><li><p dir=\"ltr\">Diamonds: Represent Relationships (association verbs connecting two or more entities, such as <code>Registers / Updates</code>, <code>Assigned</code>, and <code>Submits</code>).</p></li><li><p dir=\"ltr\">Lines with Cardinality Labels (<code>1</code>, <code>N</code>, <code>M</code>): Indicate mapping constraints and participation rules between entities:</p><ul dir=\"ltr\"><li><p dir=\"ltr\"><code>1</code> indicates a Single / One participation constraint (e.g., one <code>Senior</code> is created/updated by an <code>Employee</code>).</p></li><li><p dir=\"ltr\"><code>N</code> / <code>M</code> indicate Many participation constraints (e.g., a <code>Volunteer</code> can be assigned to <code>M</code> support cases, and a <code>Support_Case</code> can involve <code>N</code> entities).</p></li></ul></li></ul>",
+              "history": [
+                {
+                  "affectedNodeId": "142",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T21:00:15.062Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-06T21:00:15.062Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "143",
+          "guid": "ee14495f-6025-4049-a63e-09746b65f364",
+          "heading": "Appendix C",
+          "history": [
+            {
+              "affectedNodeId": "140",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:53:54.549Z",
+              "docId": "SRS",
+              "structureAction": "Create"
+            },
+            {
+              "attributesChanged": {
+                "heading": null
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-06T20:53:54.549Z"
+            }
+          ]
         }
       ]
     }
