@@ -2,24 +2,24 @@
   "id": "SRS",
   "guid": "6197efde-87a0-41ba-bcd7-a3d59fe8558b",
   "name": "Software Requirements Specification",
-  "lastId": 148,
+  "lastId": 169,
   "createdOn": "2026-10-15T17:06:14.182Z",
   "createdBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-11-06T21:02:21.798Z",
+  "lastChangedOn": "2026-11-07T01:33:17.104Z",
   "lastChangedBy": {
-    "name": "T00755725",
-    "email": "t00755725@mytru.ca",
+    "name": "T00749376",
+    "email": "t00749376@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
     {
       "id": "148",
       "guid": "b51d275d-a664-4a08-91e0-20b22f6d1ef2",
-      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr></tbody></table>",
+      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr><tr><td>Jacob Dunn</td><td>Nov 6</td><td>Finished section 3 and 4.3</td><td>5.0</td></tr><tr><td><br></td><td><br></td><td><br></td><td><br></td></tr></tbody></table>",
       "history": [
         {
           "affectedNodeId": "#",
@@ -42,6 +42,17 @@
             "name": "T00755725"
           },
           "changedOn": "2026-11-06T21:02:08.939Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00749376@mytru.ca",
+            "name": "T00749376"
+          },
+          "changedOn": "2026-11-07T01:33:17.104Z"
         }
       ]
     },
@@ -852,20 +863,23 @@
       "heading": "System Features",
       "children": [
         {
-          "id": "78",
-          "guid": "a6b34937-b521-4e97-80eb-2d3d2c8d6f0b",
-          "text": "<p>&lt;This template illustrates organizing the functional requirements for the product by system features, the major services provided by the product. You may prefer to organize this section by use case, mode of operation, user class, object class, functional hierarchy, stimulus, response, or combinations of these, whatever makes the most logical sense for your product.&gt;</p>"
-        },
-        {
           "id": "79",
           "guid": "9c95a4a0-3c1e-47b3-af47-b2ba3bc52e69",
-          "heading": "System Feature 1",
-          "children": [
+          "heading": "Create New Volunteer",
+          "history": [
             {
-              "id": "80",
-              "guid": "ea7fa1a3-13ff-4c09-8479-98e0c1db78b6",
-              "text": "<p>&lt;Don’t really say “System Feature 1.” State the feature name in just a few words.&gt;</p>"
-            },
+              "attributesChanged": {
+                "heading": "System Feature 1"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00749376@mytru.ca",
+                "name": "T00749376"
+              },
+              "changedOn": "2026-11-07T01:14:44.705Z"
+            }
+          ],
+          "children": [
             {
               "id": "81",
               "guid": "d1d3cec0-e7c0-4e96-bc2e-1e348c795d47",
@@ -874,7 +888,20 @@
                 {
                   "id": "82",
                   "guid": "8c25c9dd-3c7a-4fb3-a2b0-18ab9956edea",
-                  "text": "<p><a>&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority.&gt;</a></p>"
+                  "text": "<p>This feature allows prospective volunteers to register an account and submit their information to the VMS for review. This is a High-Priority feature.</p>",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": "<p><a>&lt;Provide a short description of the feature and indicate whether it is of High, Medium, or Low priority.&gt;</a></p>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:15:18.032Z"
+                    }
+                  ]
                 }
               ]
             },
@@ -886,7 +913,31 @@
                 {
                   "id": "84",
                   "guid": "a19ff5a2-bda8-4a1f-a51e-dbb0bdaed972",
-                  "text": "<p><a>&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;</a></p>"
+                  "text": "<ul><li>Stimulus: A prospective volunteer opens the system and enters their information and preferred activities.</li><li>Response: The system validates the information and creates a volunteer profile and flags it for administrator screening.</li></ul>",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": "<p><a>&lt;List the sequences of user actions and system responses that stimulate the behavior defined for this feature. These will correspond to the dialog elements associated with use cases.&gt;</a></p>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:15:58.369Z"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>·&nbsp;Stimulus: A prospective volunteer opens the system and enters their information and preferred activities.</p><p>Response: The system validates the information and creates a volunteer profile and flags it for administrator screening.</p>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:16:27.090Z"
+                    }
+                  ]
                 }
               ]
             },
@@ -898,16 +949,380 @@
                 {
                   "id": "86",
                   "guid": "4e926cbe-e013-4dff-bb92-edc283b48505",
-                  "text": "<p><a>&lt;Itemize the specific functional requirements associated with this feature. These are the software capabilities that must be implemented for the user to carry out the feature's services or to perform a use case. Describe how the product should respond to anticipated error conditions. Use “TBD” as a placeholder to indicate when necessary information is not yet available.&gt;</a></p>"
+                  "text": "<ul><li>FR-CNV-01: The system shall allow the user to input personal data, specifically their name, number, and address.</li><li>FR-CNV-02: The system shall allow the user to select and define their preferred volunteer activities</li><li>FR-CNV-03: The system shall store the submitted data as a new volunteer profile pending verification.</li></ul>",
+                  "history": [
+                    {
+                      "attributesChanged": {
+                        "text": "<p><a>&lt;Itemize the specific functional requirements associated with this feature. These are the software capabilities that must be implemented for the user to carry out the feature's services or to perform a use case. Describe how the product should respond to anticipated error conditions. Use “TBD” as a placeholder to indicate when necessary information is not yet available.&gt;</a></p>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:17:16.988Z"
+                    }
+                  ]
                 }
               ]
             }
           ]
         },
         {
-          "id": "87",
-          "guid": "eddc8cba-208e-46a0-9cf1-7396bf2fead6",
-          "heading": "System Feature 2 (and so on)"
+          "id": "156",
+          "guid": "22b08a0d-ff7c-45b3-bcb2-efe62127c564",
+          "heading": "Assign Volunteer",
+          "history": [
+            {
+              "affectedNodeId": "79",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00749376@mytru.ca",
+                "name": "T00749376"
+              },
+              "changedOn": "2026-11-07T01:23:47.003Z",
+              "docId": "SRS",
+              "structureAction": "Copy"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Create New Volunteer"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00749376@mytru.ca",
+                "name": "T00749376"
+              },
+              "changedOn": "2026-11-07T01:23:59.659Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "157",
+              "guid": "9b5f7c67-58e4-48b7-bd26-c06ec0e738d4",
+              "heading": "Description",
+              "history": [
+                {
+                  "affectedNodeId": "81",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:23:47.003Z",
+                  "docId": "SRS",
+                  "structureAction": "Copy"
+                }
+              ],
+              "children": [
+                {
+                  "id": "158",
+                  "guid": "c07ca545-54c7-4fd2-80d9-9a2c182a0766",
+                  "text": "<p>This feature allows a volunteer administrator to match and assign available volunteers to pending cases while reviewing their history and engagement performance metrics. This is a High-Priority feature.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "82",
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:23:47.003Z",
+                      "docId": "SRS",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>This feature allows prospective volunteers to register an account and submit their information to the VMS for review. This is a High-Priority feature.</p>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:24:57.922Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "159",
+              "guid": "daa11e28-5d34-47f2-a750-0c6f45ee5f17",
+              "heading": "Stimulus/Response Sequences",
+              "history": [
+                {
+                  "affectedNodeId": "83",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:23:47.003Z",
+                  "docId": "SRS",
+                  "structureAction": "Copy"
+                }
+              ],
+              "children": [
+                {
+                  "id": "160",
+                  "guid": "cec71590-bb35-473b-a43b-9b5a3afbb9bd",
+                  "text": "<ul><li>Stimulus: The volunteer administrator selects a case and reviews available volunteers.</li><li>Response: The system displays the requested data and allows the administrator to confirm the assignment.</li></ul><p><br></p><ul><li>Stimulus: The administrator confirms the assignment.</li><li>Response: The system notifies the volunteer of the assignment.</li></ul><p><br></p><ul><li>Stimulus: The volunteer accepts the assignment.</li><li>Response: The system confirms the assignment and notifies the administrator and SPCC employee.</li></ul>",
+                  "history": [
+                    {
+                      "affectedNodeId": "84",
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:23:47.003Z",
+                      "docId": "SRS",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Stimulus: A prospective volunteer opens the system and enters their information and preferred activities.</li><li>Response: The system validates the information and creates a volunteer profile and flags it for administrator screening.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:26:01.876Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "161",
+              "guid": "672ac6a6-73df-4da3-a2cf-d5f22b8e2e29",
+              "heading": "Functional Requirements",
+              "history": [
+                {
+                  "affectedNodeId": "85",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:23:47.003Z",
+                  "docId": "SRS",
+                  "structureAction": "Copy"
+                }
+              ],
+              "children": [
+                {
+                  "id": "162",
+                  "guid": "67bb1da2-5932-4a8b-a569-6a1efc579195",
+                  "text": "<ul><li>FR-AV-01: The system shall display the possible senior cases.</li><li>FR-AV-02: The system shall display a list of available volunteers.</li><li>FR-AV-03: The system shall display a specific volunteer’s history.</li><li>FR-AV-04: The system shall calculate and provide an engagement scoring metric that represents the volunteer’s commitment.</li><li>FR-AV-05: The system shall display the volunteer’s potential or interested cases to assist the administrators in the selection process.</li><li>FR-AV-06: The system shall allow the volunteer administrator to assign a case to a volunteer and confirm the assignment.</li><li>FR-AV-07: The system shall send a notification to the volunteer stating they have been assigned.</li><li>FR-AV-08: The system shall confirm the assignment once the volunteer accepts it.</li><li>FR-AV-09: The system shall notify the volunteer administrator and the SPCC employee that the case is currently assigned after the volunteer accepts.</li></ul>",
+                  "history": [
+                    {
+                      "affectedNodeId": "86",
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:23:47.003Z",
+                      "docId": "SRS",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>FR-CNV-01: The system shall allow the user to input personal data, specifically their name, number, and address.</li><li>FR-CNV-02: The system shall allow the user to select and define their preferred volunteer activities</li><li>FR-CNV-03: The system shall store the submitted data as a new volunteer profile pending verification.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:26:47.763Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "163",
+          "guid": "f544dbf2-185b-40b2-9f1f-61af484a94d9",
+          "heading": "Generate Daily Report",
+          "history": [
+            {
+              "affectedNodeId": "79",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00749376@mytru.ca",
+                "name": "T00749376"
+              },
+              "changedOn": "2026-11-07T01:27:27.144Z",
+              "docId": "SRS",
+              "structureAction": "Copy"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Create New Volunteer"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00749376@mytru.ca",
+                "name": "T00749376"
+              },
+              "changedOn": "2026-11-07T01:27:39.275Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "164",
+              "guid": "a47e28db-8f4b-4839-a14f-29c9bf29752f",
+              "heading": "Description",
+              "history": [
+                {
+                  "affectedNodeId": "81",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:27:27.144Z",
+                  "docId": "SRS",
+                  "structureAction": "Copy"
+                }
+              ],
+              "children": [
+                {
+                  "id": "165",
+                  "guid": "4e112b1e-447b-4e8c-bfae-22ee08fc2836",
+                  "text": "<p>This feature provides volunteer administrators with a daily forecast of anticipated case volumes for the upcoming week to help with resource planning. This is a High-Priority feature.</p>",
+                  "history": [
+                    {
+                      "affectedNodeId": "82",
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:27:27.144Z",
+                      "docId": "SRS",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<p>This feature allows prospective volunteers to register an account and submit their information to the VMS for review. This is a High-Priority feature.</p>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:27:51.932Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "166",
+              "guid": "af2128e0-eec9-40b2-af4d-32daddf47856",
+              "heading": "Stimulus/Response Sequences",
+              "history": [
+                {
+                  "affectedNodeId": "83",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:27:27.144Z",
+                  "docId": "SRS",
+                  "structureAction": "Copy"
+                }
+              ],
+              "children": [
+                {
+                  "id": "167",
+                  "guid": "24add116-01c9-463d-9dc3-27f4b347d5dc",
+                  "text": "<ul><li>Stimulus: The system reaches the daily scheduled reporting time.</li><li>Response: The system calculates the forecasted number of cases and delivers the report to the volunteer administrator.</li></ul>",
+                  "history": [
+                    {
+                      "affectedNodeId": "84",
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:27:27.144Z",
+                      "docId": "SRS",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>Stimulus: A prospective volunteer opens the system and enters their information and preferred activities.</li><li>Response: The system validates the information and creates a volunteer profile and flags it for administrator screening.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:28:19.151Z"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "168",
+              "guid": "a4a4f454-85cc-4e3b-ab73-837956393491",
+              "heading": "Functional Requirements",
+              "history": [
+                {
+                  "affectedNodeId": "85",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:27:27.144Z",
+                  "docId": "SRS",
+                  "structureAction": "Copy"
+                }
+              ],
+              "children": [
+                {
+                  "id": "169",
+                  "guid": "7bad095b-ded5-4d79-aa1f-9a9dd54226d1",
+                  "text": "<ul><li>FR-GDR-01: The system shall automatically compile a daily report.</li><li>FR-GDR-02: The system shall calculate and include the forecasted number of cases expected during the next week.</li><li>FR-GDR-03: The system shall deliver the daily report to the volunteer administrators so they can properly plan.</li></ul>",
+                  "history": [
+                    {
+                      "affectedNodeId": "86",
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:27:27.144Z",
+                      "docId": "SRS",
+                      "structureAction": "Copy"
+                    },
+                    {
+                      "attributesChanged": {
+                        "text": "<ul><li>FR-CNV-01: The system shall allow the user to input personal data, specifically their name, number, and address.</li><li>FR-CNV-02: The system shall allow the user to select and define their preferred volunteer activities</li><li>FR-CNV-03: The system shall store the submitted data as a new volunteer profile pending verification.</li></ul>"
+                      },
+                      "changedBy": {
+                        "company": "Thompson Rivers University",
+                        "email": "t00749376@mytru.ca",
+                        "name": "T00749376"
+                      },
+                      "changedOn": "2026-11-07T01:28:48.962Z"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1022,7 +1437,20 @@
             {
               "id": "95",
               "guid": "83def9c7-f847-4586-bb0e-3f3b2f5e409c",
-              "text": "<p>&lt;If your application will generate any reports, identify them here and describe their characteristics. If a report must conform to a specific predefined layout you can specify that here as a constraint, perhaps with an example. Otherwise, focus on the logical descriptions of the report content, sort sequence, totaling levels, and so forth, deferring the detailed report layout to the design stage.&gt;</p>"
+              "text": "<p>Daily Forecast Report:</p><ul><li>Purpose: To assist the volunteer administrators in planning for the upcoming week. Such as reassigning volunteers to more severe cases.</li><li>Content: It contains the forecasted number of cases that are expected to occur during the next week.</li><li>Recipient: The report is generated for and received daily by the volunteer administrators.</li></ul>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;If your application will generate any reports, identify them here and describe their characteristics. If a report must conform to a specific predefined layout you can specify that here as a constraint, perhaps with an example. Otherwise, focus on the logical descriptions of the report content, sort sequence, totaling levels, and so forth, deferring the detailed report layout to the design stage.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00749376@mytru.ca",
+                    "name": "T00749376"
+                  },
+                  "changedOn": "2026-11-07T01:30:27.848Z"
+                }
+              ]
             }
           ]
         },
