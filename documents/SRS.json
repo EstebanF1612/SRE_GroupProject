@@ -2,24 +2,24 @@
   "id": "SRS",
   "guid": "6197efde-87a0-41ba-bcd7-a3d59fe8558b",
   "name": "Software Requirements Specification",
-  "lastId": 169,
+  "lastId": 170,
   "createdOn": "2026-10-15T17:06:14.182Z",
   "createdBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-11-07T01:33:17.104Z",
+  "lastChangedOn": "2026-11-10T21:39:53.585Z",
   "lastChangedBy": {
-    "name": "T00749376",
-    "email": "t00749376@mytru.ca",
+    "name": "T00755277",
+    "email": "t00755277@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
     {
       "id": "148",
       "guid": "b51d275d-a664-4a08-91e0-20b22f6d1ef2",
-      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr><tr><td>Jacob Dunn</td><td>Nov 6</td><td>Finished section 3 and 4.3</td><td>5.0</td></tr><tr><td><br></td><td><br></td><td><br></td><td><br></td></tr></tbody></table>",
+      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr><tr><td>Jacob Dunn</td><td>Nov 6</td><td>Finished section 3 and 4.3</td><td>5.0</td></tr><tr><td>Kohen Cound</td><td>Nov 10</td><td>finished section 4.4 and added the pages to appendix C<br></td><td><br></td></tr></tbody></table>",
       "history": [
         {
           "affectedNodeId": "#",
@@ -53,6 +53,17 @@
             "name": "T00749376"
           },
           "changedOn": "2026-11-07T01:33:17.104Z"
+        },
+        {
+          "attributesChanged": {
+            "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr><tr><td>Jacob Dunn</td><td>Nov 6</td><td>Finished section 3 and 4.3</td><td>5.0</td></tr><tr><td><br></td><td><br></td><td><br></td><td><br></td></tr></tbody></table>"
+          },
+          "changedBy": {
+            "company": "Thompson Rivers University",
+            "email": "t00755277@mytru.ca",
+            "name": "T00755277"
+          },
+          "changedOn": "2026-11-10T21:38:14.039Z"
         }
       ]
     },
@@ -1462,7 +1473,20 @@
             {
               "id": "97",
               "guid": "0453a6bf-b9ab-4a65-ac31-8ba2e18823ce",
-              "text": "<p>&lt;If relevant, describe how data is acquired and maintained. State any requirements regarding the need to protect the integrity of the system's data. Identify any specific techniques that are necessary, such as backups, checkpointing, mirroring, or data accuracy verification. State policies the system must enforce for either retaining or disposing of data, including temporary data, metadata, residual data (such as deleted records), cached data, local copies, archives, and interim backups.&gt;</p>"
+              "text": "<p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">Volunteer data:</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">The volunteers data is collected during the volunteers registration into the system. The data will be stored in a centralized database with data accuracy verification systems in place to ensure no fraudulent or fake data is input into the system. The system will regularly make backups of the database incase anything were to happen to the main system. Only the individuals in charge of the system may access the volunteers personal data, except for contact information and the volunteers preferred name when applying for a job. If a volunteer unregisters then the data will stay within the system but display that the individual is not an active volunteer and they will be excluded from any reports.</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">Client data:</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">The general client data will be attained the same way as the volunteers, they will include relevant personal information during registration. It will also be stored in a centralized database with data accuracy verification separate from the volunteers database to minimize risk of data loss in case of an incident. Backups will be made regularly, as does the volunteers information database. Client data will be hidden from users and will only be utilized for emergencies or investigation into accidents by administrators.&nbsp;</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">&nbsp;</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">Job request data:</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">When a client wishes to request help for a job they will provide the time, location, required manpower, job responsibilities, any required experience or certifications if needed, and any equipment the volunteer must have if necessary. All job request information will be available to users so volunteers can know what the job entails before applying. All data will be kept in its own database with regular backups to ensure secure information.</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">Sponsor data:</span></p><p dir=\"ltr\"><span style=\"text-decoration:none;vertical-align:baseline;\">Sponsor data will be input by the company that wishes to partner with the system. Data will include the type of reward, duration of event or promotion, and how long they have been a sponsor for. The types of rewards are coupons, discounts, or other incentives, the event or promotion duration can be fixed if they are in need of volunteers or indefinite if they want to become a long term sponsor. Once a company starts an event or promotion period, the companies contact information, industry/field, locations, biography, and reward type will be available for users to view. Similar to other user data the sponsor data will be in its own database with regular backups to minimize data loss in case of an accident.</span></p>",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>&lt;If relevant, describe how data is acquired and maintained. State any requirements regarding the need to protect the integrity of the system's data. Identify any specific techniques that are necessary, such as backups, checkpointing, mirroring, or data accuracy verification. State policies the system must enforce for either retaining or disposing of data, including temporary data, metadata, residual data (such as deleted records), cached data, local copies, archives, and interim backups.&gt;</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-11-10T21:22:34.703Z"
+                }
+              ]
             }
           ]
         }
@@ -1833,7 +1857,7 @@
         {
           "id": "143",
           "guid": "ee14495f-6025-4049-a63e-09746b65f364",
-          "heading": "Appendix C",
+          "heading": "Appendix C: Application Prototype 1",
           "history": [
             {
               "affectedNodeId": "140",
@@ -1856,6 +1880,66 @@
                 "name": "T00755725"
               },
               "changedOn": "2026-11-06T20:53:54.549Z"
+            },
+            {
+              "addedAttachment": "SRS-143_1_IMG_2690.PNG",
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755277@mytru.ca",
+                "name": "T00755277"
+              },
+              "changedOn": "2026-11-10T21:30:27.670Z"
+            },
+            {
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755277@mytru.ca",
+                "name": "T00755277"
+              },
+              "changedOn": "2026-11-10T21:31:15.086Z",
+              "removedAttachment": "SRS-143_1_IMG_2690.PNG"
+            },
+            {
+              "attributesChanged": {
+                "heading": "Appendix C"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755277@mytru.ca",
+                "name": "T00755277"
+              },
+              "changedOn": "2026-11-10T21:39:53.585Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "170",
+              "guid": "c405d051-cef0-4dc8-9d96-43ada83767f7",
+              "attachments": [
+                "SRS-170_1_IMG_2690.PNG"
+              ],
+              "history": [
+                {
+                  "affectedNodeId": "143",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-11-10T21:31:24.145Z",
+                  "docId": "SRS",
+                  "structureAction": "Create"
+                },
+                {
+                  "addedAttachment": "SRS-170_1_IMG_2690.PNG",
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755277@mytru.ca",
+                    "name": "T00755277"
+                  },
+                  "changedOn": "2026-11-10T21:31:30.215Z"
+                }
+              ]
             }
           ]
         }
