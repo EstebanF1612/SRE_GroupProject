@@ -9,10 +9,10 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-10-05T17:13:43.033Z",
+  "lastChangedOn": "2026-11-26T17:12:25.393Z",
   "lastChangedBy": {
-    "name": "Esteban Flores, Kohen Cound, Jacob Dunn",
-    "email": "t00755277@mytru.ca",
+    "name": "T00755725",
+    "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
   "data": [
@@ -213,7 +213,7 @@
             {
               "id": "43",
               "guid": "6e415742-1464-49a1-8dbf-dc15cf5fd75c",
-              "text": "<ul><li>Track 60% of the city’s senior cases within the system during its first year of operation.</li><li>Provide volunteer support to 85% of the reported senior cases within the first year.</li><li>Reduce the volunteer assignment timeframe to 30% of its current duration, ensuring seniors receive support within three days.</li><li>Increase business transactions in the Downtown area and at local shop s by 10% using engagement activities to lower the crime rate.</li></ul>",
+              "text": "<ul><li>Track 60% of the city’s senior cases within the system during its first year of operation.</li><li>Provide volunteer support to 85% of the reported senior cases within the first year.</li><li>Reduce the volunteer assignment timeframe to 30% of its current duration, ensuring seniors receive support within 4 to 5 days.</li><li>Increase business transactions in the Downtown area and at local shop s by 10% using engagement activities to lower the crime rate.</li></ul>",
               "history": [
                 {
                   "attributesChanged": {
@@ -236,6 +236,17 @@
                     "name": "Jacob Dunn"
                   },
                   "changedOn": "2026-10-05T16:51:54.881Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li>Track 60% of the city’s senior cases within the system during its first year of operation.</li><li>Provide volunteer support to 85% of the reported senior cases within the first year.</li><li>Reduce the volunteer assignment timeframe to 30% of its current duration, ensuring seniors receive support within three days.</li><li>Increase business transactions in the Downtown area and at local shop s by 10% using engagement activities to lower the crime rate.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-26T17:12:25.393Z"
                 }
               ]
             }
