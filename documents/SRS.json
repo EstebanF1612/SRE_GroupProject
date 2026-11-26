@@ -9,7 +9,7 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-11-26T18:06:00.000Z",
+  "lastChangedOn": "2026-11-26T18:25:24.296Z",
   "lastChangedBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
@@ -1547,7 +1547,7 @@
             {
               "id": "103",
               "guid": "aacb4130-bcb1-4061-ad33-ab77267ccb03",
-              "text": "<p>The VMS interfaces with the following internal and external software components:</p><ul><li><strong>SI-01 [Release 1.0] PostgreSQL 15 Relational Database Server:</strong> Connects via TLS-encrypted TCP/IP (port 5432) on Red Hat Enterprise Linux (RHEL) 9 using logically separated schemas (e.g., <code>core_ops</code>, <code>pii_vault</code>, <code>forecasting</code>) to enforce strict access boundaries while storing entity records and encrypted file URIs.</li><li><strong>SI-02 [Release 1.0] Encrypted Local Document Store:</strong> Interfaces with the RHEL 9 encrypted filesystem directory to read/write uploaded PDF compliance documents (criminal record certificates and educational credentials) referenced by <code>BCS_Record.FilePath</code>.</li><li><strong>SI-03 [Release 1.0] External Background Check System (BCS):</strong> Communicates asynchronously via a RESTful JSON API over HTTPS (TLS 1.2+). VMS submits applicant identity payloads (<code>Volunteer.ID</code>, legal name, birth date, address) and receives clearance outcomes (<code>Passed</code> / <code>Failed</code>) and certificate references within a 48-hour SLA. Requests submitted outside standard police working hours are queued by BCS for next-business-day processing.</li><li><strong>SI-04 [Release 1.0] Municipal SMTP Email &amp; In-App Notification Service:</strong> Interfaces with the city's SMTP relay server to dispatch transactional email alerts (assignment offers, approval decisions, daily 06:00 AM forecast/shortage reports) synchronized with in-app notification records.</li><li><strong>SI-05 [Release 2.0] Academic Credential Verification Workflow:</strong> Rather than an automated external database link, educational credential verification (UC-04) operates as a manual administrative review workflow inside VMS where Volunteer Administrators inspect uploaded PDF transcripts/certificates and record approval status.</li><li><strong>SI-06 [All Releases] SPCC Telephony Coexistence:</strong> No automated CTI/API integration exists with the SPCC phone system; SPCC staff use existing municipal telephones concurrently with the VMS web console.</li></ul>",
+              "text": "<p>The VMS interfaces with the following internal and external software components:</p><ul><li><strong>SI-01 [Release 1.0] PostgreSQL 15 Relational Database Server:</strong> Connects via TLS-encrypted TCP/IP (port 5432) on Red Hat Enterprise Linux (RHEL) 9 using logically separated schemas to enforce strict access boundaries while storing entity records and encrypted file URIs.</li><li><strong>SI-02 [Release 1.0] Encrypted Local Document Store:</strong> Interfaces with the RHEL 9 encrypted filesystem directory to read/write uploaded PDF compliance documents referenced by BCS_Record.FilePath.</li><li><strong>SI-03 [Release 1.0] External Background Check System (BCS):</strong> Communicates asynchronously via a RESTful JSON API over HTTPS (TLS 1.2+). VMS submits applicant identity payloads (Volunteer.ID, legal name, birth date, address) and receives clearance outcomes (Passed / Failed) and certificate references within a 48-hour SLA. Requests submitted outside standard police working hours are queued by BCS for next-business-day processing.</li><li><strong>SI-04 [Release 1.0] Municipal SMTP Email &amp; In-App Notification Service:</strong> Interfaces with the city's SMTP relay server to dispatch transactional email alerts (assignment offers, approval decisions, daily 06:00 AM forecast/shortage reports) synchronized with in-app notification records.</li><li><strong>SI-05 [Release 2.0] Academic Credential Verification Workflow:</strong> Rather than an automated external database link, educational credential verification (UC-04) operates as a manual administrative review workflow inside VMS where Volunteer Administrators inspect uploaded PDF transcripts/certificates and record approval status.</li><li><strong>SI-06 [All Releases] SPCC Telephony Coexistence:</strong> No automated CTI/API integration exists with the SPCC phone system; SPCC staff use existing municipal telephones concurrently with the VMS web console.</li></ul>",
               "links": {
                 "reference": [
                   "VSD-71",
@@ -1563,7 +1563,20 @@
                   "VSD-65",
                   "VSD-67"
                 ]
-              }
+              },
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p>The VMS interfaces with the following internal and external software components:</p><ul><li><strong>SI-01 [Release 1.0] PostgreSQL 15 Relational Database Server:</strong> Connects via TLS-encrypted TCP/IP (port 5432) on Red Hat Enterprise Linux (RHEL) 9 using logically separated schemas (e.g., <code>core_ops</code>, <code>pii_vault</code>, <code>forecasting</code>) to enforce strict access boundaries while storing entity records and encrypted file URIs.</li><li><strong>SI-02 [Release 1.0] Encrypted Local Document Store:</strong> Interfaces with the RHEL 9 encrypted filesystem directory to read/write uploaded PDF compliance documents (criminal record certificates and educational credentials) referenced by <code>BCS_Record.FilePath</code>.</li><li><strong>SI-03 [Release 1.0] External Background Check System (BCS):</strong> Communicates asynchronously via a RESTful JSON API over HTTPS (TLS 1.2+). VMS submits applicant identity payloads (<code>Volunteer.ID</code>, legal name, birth date, address) and receives clearance outcomes (<code>Passed</code> / <code>Failed</code>) and certificate references within a 48-hour SLA. Requests submitted outside standard police working hours are queued by BCS for next-business-day processing.</li><li><strong>SI-04 [Release 1.0] Municipal SMTP Email &amp; In-App Notification Service:</strong> Interfaces with the city's SMTP relay server to dispatch transactional email alerts (assignment offers, approval decisions, daily 06:00 AM forecast/shortage reports) synchronized with in-app notification records.</li><li><strong>SI-05 [Release 2.0] Academic Credential Verification Workflow:</strong> Rather than an automated external database link, educational credential verification (UC-04) operates as a manual administrative review workflow inside VMS where Volunteer Administrators inspect uploaded PDF transcripts/certificates and record approval status.</li><li><strong>SI-06 [All Releases] SPCC Telephony Coexistence:</strong> No automated CTI/API integration exists with the SPCC phone system; SPCC staff use existing municipal telephones concurrently with the VMS web console.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-26T18:16:21.330Z"
+                }
+              ]
             }
           ]
         },
@@ -1575,7 +1588,7 @@
             {
               "id": "105",
               "guid": "568c1af2-f8a5-4ef5-8b17-81af7818df76",
-              "text": "<p><strong>N/A (No Custom Hardware Interfaces).</strong> The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>",
+              "text": "<p>N/A: The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>",
               "links": {
                 "reference": [
                   "SRS-72",
@@ -1584,7 +1597,20 @@
                 "satisfaction": [
                   "VSD-86"
                 ]
-              }
+              },
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<p><strong>N/A (No Custom Hardware Interfaces).</strong> The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-26T18:17:09.672Z"
+                }
+              ]
             }
           ]
         },
@@ -1596,7 +1622,7 @@
             {
               "id": "107",
               "guid": "c161c5d1-f497-4db7-9e1d-07f6a1c7626d",
-              "text": "<ul><li><strong>CI-01 [Release 1.0] Web Transport Security:</strong> All browser-to-server and mobile-to-API traffic shall use HTTPS over TLS 1.2 or higher; unencrypted HTTP requests on port 80 shall automatically redirect to port 443.</li><li><strong>CI-02 [Release 1.0] Data Interchange Formatting:</strong> All client-server and external BCS API payloads shall be encoded in UTF-8 JSON; document uploads (background checks, educational credentials) shall be restricted to PDF format (max 10 MB per file).</li><li><strong>CI-03 [Release 1.0] Notification Delivery Channels:</strong> System notifications (assignment dispatches, screening updates, and daily 06:00 AM shortage alerts) shall be delivered dual-channel via authenticated SMTP/TLS email and persistent in-app notification feeds (plus APNs/FCM push notifications in Release 3.0).</li><li><strong>CI-04 [Release 1.0] Network Isolation:</strong> Database traffic between the web tier and PostgreSQL 15 tier shall traverse an isolated municipal VLAN with firewall rules blocking direct external access to port 5432.</li></ul>",
+              "text": "<p><br></p><table style=\"width: 100%;\"><colgroup><col style=\"width: 7.8229%;\"><col style=\"width: 10.3831%;\"><col style=\"width: 30.6555%;\"><col style=\"width: 51.1386%;\"></colgroup><tbody><tr><td>ID</td><td>Release</td><td>Name</td><td>Description</td></tr><tr><td>CI-01</td><td>1.0</td><td>Web Transport Security</td><td>All browser-to-server and mobile-to-API traffic shall use HTTPS over TLS 1.2 or higher; unencrypted HTTP requests on port 80 shall automatically redirect to port 443.<br></td></tr><tr><td>CI-02</td><td>1.0<br></td><td>Data Interchange Formatting</td><td>All client-server and external BCS API payloads shall be encoded in UTF-8 JSON; document uploads (background checks, educational credentials) shall be restricted to PDF format (max 10 MB per file).<br></td></tr><tr><td>CI-03</td><td>1.0<br></td><td>Notification Delivery Channels</td><td>System notifications (assignment dispatches, screening updates, and daily 06:00 AM shortage alerts) shall be delivered dual-channel via authenticated SMTP/TLS email and persistent in-app notification feeds (plus APNs/FCM push notifications in Release 3.0).<br></td></tr><tr><td>CI-04</td><td>1.0<br></td><td>Network Isolation</td><td>Database traffic between the web tier and PostgreSQL 15 tier shall traverse an isolated municipal VLAN with firewall rules blocking direct external access to port 5432.<br></td></tr></tbody></table>",
               "links": {
                 "reference": [
                   "SRS-72",
@@ -1606,7 +1632,31 @@
                   "VSD-59",
                   "VSD-88"
                 ]
-              }
+              },
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": "<ul><li><strong>CI-01 [Release 1.0] Web Transport Security:</strong> All browser-to-server and mobile-to-API traffic shall use HTTPS over TLS 1.2 or higher; unencrypted HTTP requests on port 80 shall automatically redirect to port 443.</li><li><strong>CI-02 [Release 1.0] Data Interchange Formatting:</strong> All client-server and external BCS API payloads shall be encoded in UTF-8 JSON; document uploads (background checks, educational credentials) shall be restricted to PDF format (max 10 MB per file).</li><li><strong>CI-03 [Release 1.0] Notification Delivery Channels:</strong> System notifications (assignment dispatches, screening updates, and daily 06:00 AM shortage alerts) shall be delivered dual-channel via authenticated SMTP/TLS email and persistent in-app notification feeds (plus APNs/FCM push notifications in Release 3.0).</li><li><strong>CI-04 [Release 1.0] Network Isolation:</strong> Database traffic between the web tier and PostgreSQL 15 tier shall traverse an isolated municipal VLAN with firewall rules blocking direct external access to port 5432.</li></ul>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-26T18:18:04.939Z"
+                },
+                {
+                  "attributesChanged": {
+                    "text": "<p><strong>CI-01 [Release 1.0] Web Transport Security:</strong> All browser-to-server and mobile-to-API traffic shall use HTTPS over TLS 1.2 or higher; unencrypted HTTP requests on port 80 shall automatically redirect to port 443.</p><p><strong>CI-02 [Release 1.0] Data Interchange Formatting:</strong> All client-server and external BCS API payloads shall be encoded in UTF-8 JSON; document uploads (background checks, educational credentials) shall be restricted to PDF format (max 10 MB per file).</p><p><strong>CI-03 [Release 1.0] Notification Delivery Channels:</strong> System notifications (assignment dispatches, screening updates, and daily 06:00 AM shortage alerts) shall be delivered dual-channel via authenticated SMTP/TLS email and persistent in-app notification feeds (plus APNs/FCM push notifications in Release 3.0).</p><p><strong>CI-04 [Release 1.0] Network Isolation:</strong> Database traffic between the web tier and PostgreSQL 15 tier shall traverse an isolated municipal VLAN with firewall rules blocking direct external access to port 5432.</p>"
+                  },
+                  "changedBy": {
+                    "company": "Thompson Rivers University",
+                    "email": "t00755725@mytru.ca",
+                    "name": "T00755725"
+                  },
+                  "changedOn": "2026-11-26T18:22:57.944Z"
+                }
+              ]
             }
           ]
         }
@@ -1751,7 +1801,7 @@
         {
           "id": "120",
           "guid": "cee5675e-010a-4ead-b2e9-1195612f5a59",
-          "text": "<p><strong>Partially Applicable (Localized for Kamloops, BC, Canada; i18n-Ready Architecture).</strong> Because the VMS is deployed exclusively for the City of Kamloops, British Columbia, multi-currency, multi-timezone, and international regulatory variations are N/A. However, the system shall enforce Canadian localization standards and internationalization readiness:</p><ul><li><strong>I18N-01 [Release 1.0] Primary Language &amp; Future Bilingual Readiness:</strong> Release 1.0 shall deliver all UI labels, notifications, and reports in Canadian English (<code>en-CA</code>). All user-facing strings shall be externalized into structured resource bundles (e.g., JSON/i18n translation keys) rather than hardcoded in UI components so that Canadian French (<code>fr-CA</code>) can be added in a future release without code refactoring.</li><li><strong>I18N-02 [Release 1.0] Canadian Regional Formats:</strong> The system shall format telephone numbers using the North American Numbering Plan (<code>+1-XXX-XXX-XXXX</code>), postal codes in Canadian alphanumeric format (<code>A1A 1A1</code>), dates in ISO 8601 (<code>YYYY-MM-DD</code>) or standard Canadian format, and scheduled jobs (such as the 06:00 AM daily forecast) in Pacific Time (America/Vancouver, PST/PDT).</li></ul>",
+          "text": "<p>Partially Applicable, because the VMS is deployed exclusively for the City of Kamloops, British Columbia, multi-currency, multi-timezone, and international regulatory variations are N/A. However, the system shall enforce Canadian localization standards and internationalization readiness:</p><ul><li><strong>I18N-01 [Release 1.0] Primary Language &amp; Future Bilingual Readiness:</strong> Release 1.0 shall deliver all UI labels, notifications, and reports in Canadian English (en-CA). All user-facing strings shall be externalized into structured resource bundles (e.g., JSON/i18n translation keys) rather than hardcoded in UI components so that Canadian French (fr-CA) can be added in a future release without code refactoring.</li><li><strong>I18N-02 [Release 1.0] Canadian Regional Formats:</strong> The system shall format telephone numbers using the North American Numbering Plan (+1-XXX-XXX-XXXX), postal codes in Canadian alphanumeric format (A1A 1A1), dates in ISO 8601 (YYYY-MM-DD) or standard Canadian format, and scheduled jobs (such as the 06:00 AM daily forecast) in Pacific Time (America/Vancouver, PST/PDT).</li></ul>",
           "links": {
             "reference": [
               "SRS-56",
@@ -1761,7 +1811,31 @@
             "satisfaction": [
               "VSD-88"
             ]
-          }
+          },
+          "history": [
+            {
+              "attributesChanged": {
+                "text": "<p><strong>Partially Applicable (Localized for Kamloops, BC, Canada; i18n-Ready Architecture).</strong> Because the VMS is deployed exclusively for the City of Kamloops, British Columbia, multi-currency, multi-timezone, and international regulatory variations are N/A. However, the system shall enforce Canadian localization standards and internationalization readiness:</p><ul><li><strong>I18N-01 [Release 1.0] Primary Language &amp; Future Bilingual Readiness:</strong> Release 1.0 shall deliver all UI labels, notifications, and reports in Canadian English (<code>en-CA</code>). All user-facing strings shall be externalized into structured resource bundles (e.g., JSON/i18n translation keys) rather than hardcoded in UI components so that Canadian French (<code>fr-CA</code>) can be added in a future release without code refactoring.</li><li><strong>I18N-02 [Release 1.0] Canadian Regional Formats:</strong> The system shall format telephone numbers using the North American Numbering Plan (<code>+1-XXX-XXX-XXXX</code>), postal codes in Canadian alphanumeric format (<code>A1A 1A1</code>), dates in ISO 8601 (<code>YYYY-MM-DD</code>) or standard Canadian format, and scheduled jobs (such as the 06:00 AM daily forecast) in Pacific Time (America/Vancouver, PST/PDT).</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-26T18:24:19.987Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>Partially Applicable, because the VMS is deployed exclusively for the City of Kamloops, British Columbia, multi-currency, multi-timezone, and international regulatory variations are N/A. However, the system shall enforce Canadian localization standards and internationalization readiness:</p><ul><li><strong>I18N-01 [Release 1.0] Primary Language &amp; Future Bilingual Readiness:</strong> Release 1.0 shall deliver all UI labels, notifications, and reports in Canadian English (<code>en-CA</code>). All user-facing strings shall be externalized into structured resource bundles (e.g., JSON/i18n translation keys) rather than hardcoded in UI components so that Canadian French (<code>fr-CA</code>) can be added in a future release without code refactoring.</li><li><strong>I18N-02 [Release 1.0] Canadian Regional Formats:</strong> The system shall format telephone numbers using the North American Numbering Plan (<code>+1-XXX-XXX-XXXX</code>), postal codes in Canadian alphanumeric format (<code>A1A 1A1</code>), dates in ISO 8601 (<code>YYYY-MM-DD</code>) or standard Canadian format, and scheduled jobs (such as the 06:00 AM daily forecast) in Pacific Time (America/Vancouver, PST/PDT).</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-26T18:24:39.845Z"
+            }
+          ]
         }
       ]
     },
@@ -1797,7 +1871,7 @@
         {
           "id": "124",
           "guid": "1c35e566-39ec-4eb1-857b-71c9c6b29e06",
-          "text": "<p>The following terms, acronyms, and abbreviations are used throughout this SRS:</p><table><thead><tr><th>Term / Acronym</th><th>Definition</th></tr></thead><tbody><tr><td><strong>BCS</strong></td><td><strong>Background Check System:</strong> The external municipal/government automated police clearance service that processes criminal record checks within a 48-hour turnaround SLA during business hours.</td></tr><tr><td><strong>Engagement Score</strong></td><td>A calculated system metric reflecting a volunteer's historical reliability, completed assignments, and commitment level, used by Volunteer Administrators during candidate selection.</td></tr><tr><td><strong>ERD</strong></td><td><strong>Entity-Relationship Diagram:</strong> A visual logical data model depicting core VMS entities, attributes, primary keys, and cardinality relationships (see Appendix B).</td></tr><tr><td><strong>FIPPA</strong></td><td><strong>Freedom of Information and Protection of Privacy Act:</strong> British Columbia provincial legislation governing the collection, protection, and disclosure of personal information by public bodies (including municipalities).</td></tr><tr><td><strong>PII</strong></td><td><strong>Personally Identifiable Information:</strong> Any data that can identify a specific individual (e.g., full name, home address, phone number, birth date, or police check record).</td></tr><tr><td><strong>RBAC</strong></td><td><strong>Role-Based Access Control:</strong> A security mechanism restricting system actions and data visibility based on the authenticated user's assigned role (e.g., Volunteer, SPCC Employee, Volunteer Admin).</td></tr><tr><td><strong>RHEL 9</strong></td><td><strong>Red Hat Enterprise Linux 9:</strong> The standardized enterprise Linux operating system running on the municipal web and database servers.</td></tr><tr><td><strong>Senior-Peer Volunteer</strong></td><td>An approved volunteer matched to provide non-medical daily wellness check-in calls, appointment reminders, and social companionship to senior citizens.</td></tr><tr><td><strong>SLA</strong></td><td><strong>Service Level Agreement:</strong> A formal performance or turnaround commitment between service providers (e.g., BCS 48-hour police check turnaround).</td></tr><tr><td><strong>SPCC</strong></td><td><strong>Senior People Care Center:</strong> The municipal care facility whose staff conduct telephone intake with senior citizens and register or update senior profiles and support cases in the VMS.</td></tr><tr><td><strong>SRS</strong></td><td><strong>Software Requirements Specification:</strong> This document, specifying functional, data, interface, quality, and operational requirements for the VMS.</td></tr><tr><td><strong>Student-Peer Volunteer</strong></td><td>An approved volunteer who has passed both a criminal background check and educational credential verification (UC-04) to tutor elementary students (introduced in Release 2.0).</td></tr><tr><td><strong>VMS</strong></td><td><strong>Volunteer Management System:</strong> The centralized web and mobile software platform specified in this document.</td></tr><tr><td><strong>VSD</strong></td><td><strong>Vision and Scope Document:</strong> The upstream business requirements document defining project vision, business objectives, release roadmap, and stakeholder profiles.</td></tr></tbody></table>",
+          "text": "<p><br></p><table><thead><tr><th>Term / Acronym</th><th>Definition</th></tr></thead><tbody><tr><td>BCS</td><td>Background Check System: The external municipal/government automated police clearance service that processes criminal record checks within a 48-hour turnaround SLA during business hours.</td></tr><tr><td>Engagement Score</td><td>A calculated system metric reflecting a volunteer's historical reliability, completed assignments, and commitment level, used by Volunteer Administrators during candidate selection.</td></tr><tr><td>ERD</td><td>Entity-Relationship Diagram: A visual logical data model depicting core VMS entities, attributes, primary keys, and cardinality relationships (see Appendix B).</td></tr><tr><td>FIPPA</td><td>Freedom of Information and Protection of Privacy Act: British Columbia provincial legislation governing the collection, protection, and disclosure of personal information by public bodies (including municipalities).</td></tr><tr><td>PII</td><td>Personally Identifiable Information: Any data that can identify a specific individual (e.g., full name, home address, phone number, birth date, or police check record).</td></tr><tr><td>RBAC</td><td>Role-Based Access Control: A security mechanism restricting system actions and data visibility based on the authenticated user's assigned role (e.g., Volunteer, SPCC Employee, Volunteer Admin).</td></tr><tr><td>RHEL 9</td><td>Red Hat Enterprise Linux 9: The standardized enterprise Linux operating system running on the municipal web and database servers.</td></tr><tr><td>Senior-Peer Volunteer</td><td>An approved volunteer matched to provide non-medical daily wellness check-in calls, appointment reminders, and social companionship to senior citizens.</td></tr><tr><td>SLA</td><td>Service Level Agreement: A formal performance or turnaround commitment between service providers (e.g., BCS 48-hour police check turnaround).</td></tr><tr><td>SPCC</td><td>Senior People Care Center: The municipal care facility whose staff conduct telephone intake with senior citizens and register or update senior profiles and support cases in the VMS.</td></tr><tr><td>SRS</td><td>Software Requirements Specification: This document, specifying functional, data, interface, quality, and operational requirements for the VMS.</td></tr><tr><td>Student-Peer Volunteer</td><td>An approved volunteer who has passed both a criminal background check and educational credential verification (UC-04) to tutor elementary students (introduced in Release 2.0).</td></tr><tr><td>VMS</td><td>Volunteer Management System: The centralized web and mobile software platform specified in this document.</td></tr><tr><td>VSD</td><td>Vision and Scope Document: The upstream business requirements document defining project vision, business objectives, release roadmap, and stakeholder profiles.</td></tr></tbody></table>",
           "links": {
             "reference": [
               "SRS-58",
@@ -1806,7 +1880,31 @@
               "SRS-72",
               "SRS-144"
             ]
-          }
+          },
+          "history": [
+            {
+              "attributesChanged": {
+                "text": "<p>The following terms, acronyms, and abbreviations are used throughout this SRS:</p><table><thead><tr><th>Term / Acronym</th><th>Definition</th></tr></thead><tbody><tr><td><strong>BCS</strong></td><td><strong>Background Check System:</strong> The external municipal/government automated police clearance service that processes criminal record checks within a 48-hour turnaround SLA during business hours.</td></tr><tr><td><strong>Engagement Score</strong></td><td>A calculated system metric reflecting a volunteer's historical reliability, completed assignments, and commitment level, used by Volunteer Administrators during candidate selection.</td></tr><tr><td><strong>ERD</strong></td><td><strong>Entity-Relationship Diagram:</strong> A visual logical data model depicting core VMS entities, attributes, primary keys, and cardinality relationships (see Appendix B).</td></tr><tr><td><strong>FIPPA</strong></td><td><strong>Freedom of Information and Protection of Privacy Act:</strong> British Columbia provincial legislation governing the collection, protection, and disclosure of personal information by public bodies (including municipalities).</td></tr><tr><td><strong>PII</strong></td><td><strong>Personally Identifiable Information:</strong> Any data that can identify a specific individual (e.g., full name, home address, phone number, birth date, or police check record).</td></tr><tr><td><strong>RBAC</strong></td><td><strong>Role-Based Access Control:</strong> A security mechanism restricting system actions and data visibility based on the authenticated user's assigned role (e.g., Volunteer, SPCC Employee, Volunteer Admin).</td></tr><tr><td><strong>RHEL 9</strong></td><td><strong>Red Hat Enterprise Linux 9:</strong> The standardized enterprise Linux operating system running on the municipal web and database servers.</td></tr><tr><td><strong>Senior-Peer Volunteer</strong></td><td>An approved volunteer matched to provide non-medical daily wellness check-in calls, appointment reminders, and social companionship to senior citizens.</td></tr><tr><td><strong>SLA</strong></td><td><strong>Service Level Agreement:</strong> A formal performance or turnaround commitment between service providers (e.g., BCS 48-hour police check turnaround).</td></tr><tr><td><strong>SPCC</strong></td><td><strong>Senior People Care Center:</strong> The municipal care facility whose staff conduct telephone intake with senior citizens and register or update senior profiles and support cases in the VMS.</td></tr><tr><td><strong>SRS</strong></td><td><strong>Software Requirements Specification:</strong> This document, specifying functional, data, interface, quality, and operational requirements for the VMS.</td></tr><tr><td><strong>Student-Peer Volunteer</strong></td><td>An approved volunteer who has passed both a criminal background check and educational credential verification (UC-04) to tutor elementary students (introduced in Release 2.0).</td></tr><tr><td><strong>VMS</strong></td><td><strong>Volunteer Management System:</strong> The centralized web and mobile software platform specified in this document.</td></tr><tr><td><strong>VSD</strong></td><td><strong>Vision and Scope Document:</strong> The upstream business requirements document defining project vision, business objectives, release roadmap, and stakeholder profiles.</td></tr></tbody></table>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-26T18:25:08.752Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p>The following terms, acronyms, and abbreviations are used throughout this SRS:</p><table><thead><tr><th>Term / Acronym</th><th>Definition</th></tr></thead><tbody><tr><td>BCS</td><td>Background Check System: The external municipal/government automated police clearance service that processes criminal record checks within a 48-hour turnaround SLA during business hours.</td></tr><tr><td>Engagement Score</td><td>A calculated system metric reflecting a volunteer's historical reliability, completed assignments, and commitment level, used by Volunteer Administrators during candidate selection.</td></tr><tr><td>ERD</td><td>Entity-Relationship Diagram: A visual logical data model depicting core VMS entities, attributes, primary keys, and cardinality relationships (see Appendix B).</td></tr><tr><td>FIPPA</td><td>Freedom of Information and Protection of Privacy Act: British Columbia provincial legislation governing the collection, protection, and disclosure of personal information by public bodies (including municipalities).</td></tr><tr><td>PII</td><td>Personally Identifiable Information: Any data that can identify a specific individual (e.g., full name, home address, phone number, birth date, or police check record).</td></tr><tr><td>RBAC</td><td>Role-Based Access Control: A security mechanism restricting system actions and data visibility based on the authenticated user's assigned role (e.g., Volunteer, SPCC Employee, Volunteer Admin).</td></tr><tr><td>RHEL 9</td><td>Red Hat Enterprise Linux 9: The standardized enterprise Linux operating system running on the municipal web and database servers.</td></tr><tr><td>Senior-Peer Volunteer</td><td>An approved volunteer matched to provide non-medical daily wellness check-in calls, appointment reminders, and social companionship to senior citizens.</td></tr><tr><td>SLA</td><td>Service Level Agreement: A formal performance or turnaround commitment between service providers (e.g., BCS 48-hour police check turnaround).</td></tr><tr><td>SPCC</td><td>Senior People Care Center: The municipal care facility whose staff conduct telephone intake with senior citizens and register or update senior profiles and support cases in the VMS.</td></tr><tr><td>SRS</td><td>Software Requirements Specification: This document, specifying functional, data, interface, quality, and operational requirements for the VMS.</td></tr><tr><td>Student-Peer Volunteer</td><td>An approved volunteer who has passed both a criminal background check and educational credential verification (UC-04) to tutor elementary students (introduced in Release 2.0).</td></tr><tr><td>VMS</td><td>Volunteer Management System: The centralized web and mobile software platform specified in this document.</td></tr><tr><td>VSD</td><td>Vision and Scope Document: The upstream business requirements document defining project vision, business objectives, release roadmap, and stakeholder profiles.</td></tr></tbody></table>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-26T18:25:24.296Z"
+            }
+          ]
         }
       ]
     },
@@ -1818,7 +1916,7 @@
         {
           "id": "126",
           "guid": "9dea36e3-744d-42ff-a675-f7491865a0d9",
-          "text": "<p><strong>N/A (Consolidated in Section 2.3 and Appendix B).</strong> Per the ReqView SRS template guidelines, analysis models have been embedded directly within their relevant specification sections and Appendix B rather than duplicated here:</p><ul><li><strong>System Context Diagram:</strong> Located in the Vision and Scope Document (<code>VSD-71</code>), illustrating external actors and data flows across the VMS boundary.</li><li><strong>Use Case Diagram &amp; Activity Diagrams:</strong> Located in Section 2.3 (<em>Use Cases and Models</em>: <code>SRS-135</code> for the UML Use Case Diagram; <code>SRS-136</code> for the Volunteer Screening &amp; Daily Forecast Activity Diagrams).</li><li><strong>Logical Data Model (ERD) &amp; Notation Legend:</strong> Located in Section 4.1 (<code>SRS-91</code>) and Appendix B: Analysis Models (<code>SRS-142</code>, <code>SRS-145</code>, <code>SRS-146</code>, <code>SRS-147</code>).</li><li><strong>User Interface Wireframes (Prototype 1):</strong> Located in Appendix C: Application Prototype 1 (<code>SRS-143</code>, <code>SRS-170</code>).</li></ul>",
+          "text": "<p>N/A (Consolidated in Section 2.3 and Appendix B). Per the ReqView SRS template guidelines, analysis models have been embedded directly within their relevant specification sections and Appendix B rather than duplicated here:</p><ul><li>System Context Diagram: Located in the Vision and Scope Document (VSD-71), illustrating external actors and data flows across the VMS boundary.</li><li>Use Case Diagram &amp; Activity Diagrams: Located in Section 2.3 (Use Cases and Models: SRS-135 for the UML Use Case Diagram; SRS-136 for the Volunteer Screening &amp; Daily Forecast Activity Diagrams).</li><li>Logical Data Model (ERD) &amp; Notation Legend: Located in Section 4.1 (SRS-91) and Appendix B: Analysis Models (SRS-142, SRS-145, SRS-146, SRS-147).</li><li>User Interface Wireframes (Prototype 1): Located in Appendix C: Application Prototype 1 (SRS-143, SRS-170).</li></ul>",
           "links": {
             "reference": [
               "VSD-71",
@@ -1828,7 +1926,20 @@
               "SRS-142",
               "SRS-143"
             ]
-          }
+          },
+          "history": [
+            {
+              "attributesChanged": {
+                "text": "<p><strong>N/A (Consolidated in Section 2.3 and Appendix B).</strong> Per the ReqView SRS template guidelines, analysis models have been embedded directly within their relevant specification sections and Appendix B rather than duplicated here:</p><ul><li><strong>System Context Diagram:</strong> Located in the Vision and Scope Document (<code>VSD-71</code>), illustrating external actors and data flows across the VMS boundary.</li><li><strong>Use Case Diagram &amp; Activity Diagrams:</strong> Located in Section 2.3 (<em>Use Cases and Models</em>: <code>SRS-135</code> for the UML Use Case Diagram; <code>SRS-136</code> for the Volunteer Screening &amp; Daily Forecast Activity Diagrams).</li><li><strong>Logical Data Model (ERD) &amp; Notation Legend:</strong> Located in Section 4.1 (<code>SRS-91</code>) and Appendix B: Analysis Models (<code>SRS-142</code>, <code>SRS-145</code>, <code>SRS-146</code>, <code>SRS-147</code>).</li><li><strong>User Interface Wireframes (Prototype 1):</strong> Located in Appendix C: Application Prototype 1 (<code>SRS-143</code>, <code>SRS-170</code>).</li></ul>"
+              },
+              "changedBy": {
+                "company": "Thompson Rivers University",
+                "email": "t00755725@mytru.ca",
+                "name": "T00755725"
+              },
+              "changedOn": "2026-11-26T18:24:52.214Z"
+            }
+          ]
         }
       ]
     },
@@ -2111,8 +2222,10 @@
       ]
     }
   ],
-  "attributes": {},
-  "templateColumns": {},
+  "attributes": {
+  },
+  "templateColumns": {
+  },
   "views": {
     "Primary": {
       "columns": [
@@ -2123,14 +2236,6 @@
         {
           "columnId": "description",
           "width": 520
-        },
-        {
-          "columnId": "satisfaction",
-          "width": 150
-        },
-        {
-          "columnId": "reference",
-          "width": 150
         }
       ],
       "default": true
