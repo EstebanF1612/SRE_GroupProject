@@ -2111,12 +2111,7 @@
       ]
     }
   ],
-  "attributes": {
-    "links": {
-      "name": "Links",
-      "type": "links"
-    }
-  },
+  "attributes": {},
   "templateColumns": {},
   "views": {
     "Primary": {
