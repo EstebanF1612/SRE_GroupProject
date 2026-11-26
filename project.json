@@ -9,6 +9,11 @@
       "name": "Reference",
       "source": "References",
       "target": "Referenced by"
+    },
+    "satisfaction": {
+      "name": "Satisfaction",
+      "source": "Satisfies",
+      "target": "Satisfied by"
     }
   },
   "integrations": {
