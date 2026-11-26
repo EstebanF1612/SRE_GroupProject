@@ -9,7 +9,7 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-11-19T17:11:17.476Z",
+  "lastChangedOn": "2026-11-26T17:38:00.000Z",
   "lastChangedBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
@@ -19,7 +19,7 @@
     {
       "id": "148",
       "guid": "b51d275d-a664-4a08-91e0-20b22f6d1ef2",
-      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr><tr><td>Jacob Dunn</td><td>Nov 6</td><td>Finished section 3 and 4.3</td><td>5.0</td></tr><tr><td>Kohen Cound</td><td>Nov 10</td><td>finished section 4.4 and added the pages to appendix C<br></td><td><br></td></tr></tbody></table>",
+      "text": "<p>Revision History</p><table><tbody><tr><td><p><strong>Name</strong></p></td><td><p><strong>Date</strong></p></td><td><p><strong>Reason For Changes</strong></p></td><td><p><strong>Version</strong></p></td></tr><tr><td><p>&nbsp;Kohen Cound</p></td><td><p>&nbsp;October 15</p></td><td><p>&nbsp;worked on section 1</p></td><td><p>&nbsp;1.0</p></td></tr><tr><td><p>&nbsp;Esteban Flores</p></td><td><p>&nbsp;Oct 15</p></td><td><p>&nbsp;worked on section 2 parts 2.1 - 2.2 and 2.4 - 2.6</p></td><td><p>&nbsp;2.0</p></td></tr><tr><td><p>Jacob Dunn</p></td><td><p>Oct 19</p></td><td><p>worked on section 2.3</p></td><td><p>3.0</p></td></tr><tr><td><p>Esteban Flores</p></td><td><p>Nov 6</p></td><td><p>Finished section 4.1, 4.2 and Appendix B</p></td><td><p>4.0</p></td></tr><tr><td>Jacob Dunn</td><td>Nov 6</td><td>Finished section 3 and 4.3</td><td>5.0</td></tr><tr><td>Kohen Cound</td><td>Nov 10</td><td>finished section 4.4 and added the pages to appendix C<br></td><td>6.0</td></tr><tr><td>Esteban Flores</td><td>Nov 26</td><td>Completed Sections 5–10, reconciled release roadmap (1.0, 2.0, 2.5, 3.0), and added satisfy/reference traceability links</td><td>7.0</td></tr></tbody></table>",
       "history": [
         {
           "affectedNodeId": "#",
@@ -80,7 +80,7 @@
             {
               "id": "56",
               "guid": "2512e376-681e-44ce-b776-53d3cf7d7030",
-              "text": "<p>This SRS is for the volunteer management system intended to be released in Kamloops. The first release of the system is planned to be October 1st and the second release is intended to be on December 1st. For further information on separate releases refer to the Vision and Scope document. This document is intended for the use of developers, project managers, testers, and document writers. Marketing staff may refer to this document if necessary.</p>",
+              "text": "<p>This SRS is for the Volunteer Management System (VMS) intended to be released in Kamloops. The initial release (Release 1.0) is planned for October 1st, with subsequent releases (Releases 2.0, 2.5, and 3.0) scheduled on a TBD roadmap. For further information on separate releases, refer to the Vision and Scope document (VSD). This document is intended for developers, project managers, testers, and documentation writers. Marketing staff may refer to this document if necessary.</p>",
               "history": [
                 {
                   "attributesChanged": {
@@ -152,7 +152,7 @@
             {
               "id": "60",
               "guid": "fd2af8fe-6cda-4cf9-9aeb-8246dac1115f",
-              "text": "<p><span style=\"text-decoration:none;vertical-align:baseline;\">The volunteer management system is a centralized system for holding information on volunteers and volunteer work. The goal is to create an efficient system to manage the distribution and simplify the process of finding or requesting volunteer work. Release 1.0 will include automated background checks, daily notification of forecasted demand, and senior assistance case intake and tracking. Release 2.0 and 2.1 will add elementary tutoring capabilities and local business sponsor capabilities respectively. Finally release 3.0 will add improved forecasting abilities among other system compatibilities. For more information on the contents of each release refer to the Vision and Scope document.&nbsp;</span></p>",
+              "text": "<p>The Volunteer Management System (VMS) is a centralized web application for managing information on volunteers and volunteer work. The goal is to streamline distribution and simplify finding or requesting volunteer assistance, reducing average assignment times by 30% (down to 4–5 days). Release 1.0 includes senior assistance case intake and tracking, volunteer onboarding, automated background checks (BCS), volunteer assignment, and daily forecasted demand notifications. Release 2.0 adds elementary student tutoring capabilities, Release 2.5 introduces local business sponsor rewards and promotions, and Release 3.0 adds advanced ML forecasting models and native mobile applications. For full release scope details, refer to the Vision and Scope document.</p>",
               "history": [
                 {
                   "attributesChanged": {
@@ -1500,7 +1500,18 @@
         {
           "id": "99",
           "guid": "3a5b6c82-09bb-4f31-bccc-b76c39065e5b",
-          "text": "<p>&lt;This section provides information to ensure that the system will communicate properly with users and with external hardware or software elements.&gt;</p>"
+          "text": "<p>This section defines the external interface requirements for the Volunteer Management System (VMS) across all planned releases (Releases 1.0, 2.0, 2.5, and 3.0), ensuring reliable communication between human user classes, external software services, hardware platforms, and network protocols.</p>",
+          "links": {
+            "satisfy": [
+              "VSD-63",
+              "VSD-65",
+              "VSD-67"
+            ],
+            "reference": [
+              "VSD-71",
+              "SRS-66"
+            ]
+          }
         },
         {
           "id": "100",
@@ -1510,7 +1521,21 @@
             {
               "id": "101",
               "guid": "3213c38f-cd90-4922-8b45-9458a1599225",
-              "text": "<p>&lt;Describe the logical characteristics of each interface between the software product and the users. This may include sample screen images, any GUI standards or product family style guides that are to be followed, screen layout constraints, standard buttons and functions (e.g., help) that will appear on every screen, keyboard shortcuts, error message display standards, and so on. Define the software components for which a user interface is needed. Details of the user interface design should be documented in a separate user interface specification.&gt;</p>"
+              "text": "<p>The VMS provides role-based user interfaces tailored to each favored user class (refer to Appendix C: Application Prototype 1 for initial wireframe layouts):</p><ul><li><strong>UI-01 [Release 1.0] Responsive Web Portal:</strong> The primary interface shall be a responsive web application accessible via standard modern desktop and mobile browsers (Chrome, Firefox, Safari, Edge) using clean, high-contrast layouts with persistent top-level navigation, role-specific dashboards, standardized form validation messages, and contextual help tooltips.</li><li><strong>UI-02 [Release 1.0] Volunteer Portal:</strong> Shall provide prospective and approved volunteers with a registration wizard (personal info, preferred activities, credential upload), an assignment dashboard displaying matched cases, and an in-app notification center.</li><li><strong>UI-03 [Release 1.0] SPCC Employee Intake Console:</strong> Shall provide a streamlined, single-screen telephone intake form optimized for rapid data entry while conversing with senior citizens over the phone, including case status and urgency indicators.</li><li><strong>UI-04 [Release 1.0] Volunteer Administrator Dashboard:</strong> Shall display pending volunteer screening queues, BCS clearance statuses, candidate matching views (with historical engagement metrics), and the daily 7-day forecast and shortage alert view.</li><li><strong>UI-05 [Release 2.0] School Administrator Portal:</strong> Shall provide a dedicated interface for elementary school staff to submit tutoring requests, specify required academic skills, and view confirmed tutor placements.</li><li><strong>UI-06 [Release 2.5] Local Business Sponsor Portal:</strong> Shall provide downtown merchants with an interface to create, schedule, and manage promotional coupon offers and view verified volunteer engagement summaries.</li><li><strong>UI-07 [Release 3.0] Native Mobile Applications:</strong> Shall introduce native iOS and Android applications enabling volunteers to receive push alerts, view active assignments, and log wellness check-in or tutoring session outcomes on the go.</li><li><strong>UI-08 [All Releases] Excluded Direct Interfaces:</strong> Senior citizens and elementary students shall not have direct login interfaces; all interactions are mediated by SPCC employees and School Administrators respectively.</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-65",
+                  "VSD-67",
+                  "VSD-84",
+                  "VSD-88"
+                ],
+                "reference": [
+                  "SRS-68",
+                  "SRS-74",
+                  "SRS-143",
+                  "SRS-170"
+                ]
+              }
             }
           ]
         },
@@ -1522,7 +1547,23 @@
             {
               "id": "103",
               "guid": "aacb4130-bcb1-4061-ad33-ab77267ccb03",
-              "text": "<p>&lt;Describe the connections between this product and other software components (identified by name and version), including other applications, databases, operating systems, tools, libraries, websites, and integrated commercial components. State the purpose, formats, and contents of the messages, data, and control values exchanged between the software components. Specify the mappings of input and output data between the systems and any translations that need to be made for the data to get from one system to the other. Describe the services needed by or from external software components and the nature of the intercomponent communications. Identify data that will be exchanged between or shared across software components. Specify nonfunctional requirements affecting the interface, such as service levels for responses times and frequencies, or security controls and restrictions.&gt;</p>"
+              "text": "<p>The VMS interfaces with the following internal and external software components:</p><ul><li><strong>SI-01 [Release 1.0] PostgreSQL 15 Relational Database Server:</strong> Connects via TLS-encrypted TCP/IP (port 5432) on Red Hat Enterprise Linux (RHEL) 9 using logically separated schemas (e.g., <code>core_ops</code>, <code>pii_vault</code>, <code>forecasting</code>) to enforce strict access boundaries while storing entity records and encrypted file URIs.</li><li><strong>SI-02 [Release 1.0] Encrypted Local Document Store:</strong> Interfaces with the RHEL 9 encrypted filesystem directory to read/write uploaded PDF compliance documents (criminal record certificates and educational credentials) referenced by <code>BCS_Record.FilePath</code>.</li><li><strong>SI-03 [Release 1.0] External Background Check System (BCS):</strong> Communicates asynchronously via a RESTful JSON API over HTTPS (TLS 1.2+). VMS submits applicant identity payloads (<code>Volunteer.ID</code>, legal name, birth date, address) and receives clearance outcomes (<code>Passed</code> / <code>Failed</code>) and certificate references within a 48-hour SLA. Requests submitted outside standard police working hours are queued by BCS for next-business-day processing.</li><li><strong>SI-04 [Release 1.0] Municipal SMTP Email &amp; In-App Notification Service:</strong> Interfaces with the city's SMTP relay server to dispatch transactional email alerts (assignment offers, approval decisions, daily 06:00 AM forecast/shortage reports) synchronized with in-app notification records.</li><li><strong>SI-05 [Release 2.0] Academic Credential Verification Workflow:</strong> Rather than an automated external database link, educational credential verification (UC-04) operates as a manual administrative review workflow inside VMS where Volunteer Administrators inspect uploaded PDF transcripts/certificates and record approval status.</li><li><strong>SI-06 [All Releases] SPCC Telephony Coexistence:</strong> No automated CTI/API integration exists with the SPCC phone system; SPCC staff use existing municipal telephones concurrently with the VMS web console.</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-63",
+                  "VSD-65",
+                  "VSD-67"
+                ],
+                "reference": [
+                  "VSD-71",
+                  "SRS-72",
+                  "SRS-74",
+                  "SRS-128",
+                  "SRS-131",
+                  "SRS-144"
+                ]
+              }
             }
           ]
         },
@@ -1534,7 +1575,16 @@
             {
               "id": "105",
               "guid": "568c1af2-f8a5-4ef5-8b17-81af7818df76",
-              "text": "<p>&lt;Describe the characteristics of each interface between the software and hardware (if any) components of the system. This description might include the supported device types, the data and control interactions between the software and the hardware, and the communication protocols to be used. List the inputs and outputs, their formats, their valid values or ranges, and any timing issues developers need to be aware of. If this information is extensive, consider creating a separate interface specification document.&gt;</p>"
+              "text": "<p><strong>N/A (No Custom Hardware Interfaces).</strong> The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>",
+              "links": {
+                "satisfy": [
+                  "VSD-86"
+                ],
+                "reference": [
+                  "SRS-72",
+                  "SRS-76"
+                ]
+              }
             }
           ]
         },
@@ -1546,7 +1596,17 @@
             {
               "id": "107",
               "guid": "c161c5d1-f497-4db7-9e1d-07f6a1c7626d",
-              "text": "<p>&lt;State the requirements for any communication functions the product will use, including e-mail, Web browser, network protocols, and electronic forms. Define any pertinent message formatting. Specify communication security or encryption issues, data transfer rates, handshaking, and synchronization mechanisms. State any constraints around these interfaces, such as whether e-mail attachments are acceptable or not.&gt;</p>"
+              "text": "<ul><li><strong>CI-01 [Release 1.0] Web Transport Security:</strong> All browser-to-server and mobile-to-API traffic shall use HTTPS over TLS 1.2 or higher; unencrypted HTTP requests on port 80 shall automatically redirect to port 443.</li><li><strong>CI-02 [Release 1.0] Data Interchange Formatting:</strong> All client-server and external BCS API payloads shall be encoded in UTF-8 JSON; document uploads (background checks, educational credentials) shall be restricted to PDF format (max 10 MB per file).</li><li><strong>CI-03 [Release 1.0] Notification Delivery Channels:</strong> System notifications (assignment dispatches, screening updates, and daily 06:00 AM shortage alerts) shall be delivered dual-channel via authenticated SMTP/TLS email and persistent in-app notification feeds (plus APNs/FCM push notifications in Release 3.0).</li><li><strong>CI-04 [Release 1.0] Network Isolation:</strong> Database traffic between the web tier and PostgreSQL 15 tier shall traverse an isolated municipal VLAN with firewall rules blocking direct external access to port 5432.</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-88"
+                ],
+                "reference": [
+                  "SRS-72",
+                  "SRS-127"
+                ]
+              }
             }
           ]
         }
@@ -1565,7 +1625,19 @@
             {
               "id": "110",
               "guid": "886aefc6-836a-4b40-aaa4-f186feffe43c",
-              "text": "<p>&lt;Specify any requirements regarding characteristics that will make the software appear to be “user-friendly.” Usability encompasses ease of use, ease of learning; memorability; error avoidance, handling, and recovery; efficiency of interactions; accessibility; and ergonomics. Sometimes these can conflict with each other, as with ease of use over ease of learning. Indicate any user interface design standards or guidelines to which the application must conform.&gt;</p>"
+              "text": "<ul><li><strong>QA-USE-01 [Release 1.0] Learnability &amp; Onboarding Speed:</strong> Newly onboarded Volunteer Administrators and SPCC Employees shall be able to complete core workflows (registering a senior case, initiating a background check, or assigning a volunteer) within 15 minutes of initial system exposure without requiring formal classroom training.</li><li><strong>QA-USE-02 [Release 1.0] Intake Efficiency:</strong> An SPCC Employee shall be able to create or update a senior citizen profile and log a support case over the phone in 3 minutes or less, utilizing structured dropdowns and auto-formatted fields (E.164 phone numbers, ISO dates).</li><li><strong>QA-USE-03 [Release 1.0] Volunteer Registration Simplicity:</strong> Prospective volunteers shall be able to complete initial registration and activity selection in under 5 minutes with inline field validation and clear error recovery prompts.</li><li><strong>QA-USE-04 [Release 1.0] Accessibility:</strong> All web interfaces shall conform to WCAG 2.1 Level AA contrast and keyboard-navigation guidelines to support diverse municipal staff and community volunteers.</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-84",
+                  "VSD-86",
+                  "VSD-88"
+                ],
+                "reference": [
+                  "SRS-68",
+                  "SRS-74",
+                  "SRS-134"
+                ]
+              }
             }
           ]
         },
@@ -1577,7 +1649,21 @@
             {
               "id": "112",
               "guid": "8378f518-27a6-4095-9cd4-d94a975b4581",
-              "text": "<p>&lt;State specific performance requirements for various system operations. If different functional requirements or features have different performance requirements, it's appropriate to specify those performance goals right with the corresponding functional requirements, rather than collecting them in this section.&gt;</p>"
+              "text": "<ul><li><strong>QA-PERF-01 [Release 1.0] Interactive Response Time:</strong> 95% of standard web UI actions (case lookups, profile creation, volunteer search/filtering, and assignment confirmation) shall complete with a server response time of 2 seconds or less under normal operating loads (up to 100 concurrent users; TBD confirmation with municipal IT).</li><li><strong>QA-PERF-02 [Release 1.0] Daily Forecast Report Generation:</strong> The automated daily 06:00 AM 7-day demand forecast job (UC-07) and shortage alert calculation shall complete execution and dispatch notifications within 60 seconds across a pool of up to 15,000 senior cases and 5,000 volunteers.</li><li><strong>QA-PERF-03 [Release 1.0] End-to-End Assignment Turnaround:</strong> Operational workflow efficiency supported by the VMS matching engine shall reduce average volunteer assignment lead time by 30% from the historical 2-week manual baseline down to 4–5 business days (including the external BCS 48-hour SLA).</li><li><strong>QA-PERF-04 [Release 1.0] Peak Throughput &amp; Concurrency:</strong> The 2-tier RHEL 9 / PostgreSQL 15 architecture shall sustain peak daily traffic spikes of up to 2,000 case transactions per day and 250 concurrent active sessions without HTTP 5xx errors (TBD confirmation).</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-43",
+                  "VSD-45",
+                  "VSD-55",
+                  "VSD-86"
+                ],
+                "reference": [
+                  "SRS-72",
+                  "SRS-129",
+                  "SRS-131",
+                  "SRS-134"
+                ]
+              }
             }
           ]
         },
@@ -1589,7 +1675,20 @@
             {
               "id": "114",
               "guid": "3c9a3d31-f112-4e9a-814e-d10811b3c5f5",
-              "text": "<p>&lt;Specify any requirements regarding security or privacy issues that restrict access to or use of the product. These could refer to physical, data, or software security. Security requirements often originate in business rules, so identify any security or privacy policies or regulations to which the product must conform. If these are documented in a business rules repository, just refer to them.&gt;</p>"
+              "text": "<ul><li><strong>QA-SEC-01 [Release 1.0] Role-Based Access Control (RBAC) &amp; Data Isolation:</strong> The system shall enforce strict RBAC across logically separated PostgreSQL schemas. Senior citizen and elementary student personally identifiable information (PII—full name, address, phone number, birth date) shall remain hidden from unapproved and unassigned volunteers; an approved volunteer may view contact and case details <em>only</em> for cases explicitly assigned to them.</li><li><strong>QA-SEC-02 [Release 1.0] Encryption in Transit and at Rest:</strong> All external network communications shall use TLS 1.2+. Stored compliance PDFs (police background checks and academic certificates) in the local directory and PII columns in PostgreSQL 15 shall be encrypted at rest using AES-256.</li><li><strong>QA-SEC-03 [Release 1.0] Authentication &amp; Session Management:</strong> All direct users (Volunteers, SPCC Employees, Volunteer Admins, School Admins in 2.0, Sponsors in 2.5) shall authenticate via salted, hashed credentials (bcrypt/Argon2) with automatic session timeout after 30 minutes of inactivity.</li><li><strong>QA-SEC-04 [Release 1.0] Audit Logging:</strong> Every read, create, update, or export operation involving senior PII, student records, or BCS clearance statuses shall record an immutable audit entry (user ID, timestamp, action, target record ID).</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-84",
+                  "VSD-86",
+                  "VSD-88"
+                ],
+                "reference": [
+                  "SRS-72",
+                  "SRS-74",
+                  "SRS-97"
+                ]
+              }
             }
           ]
         },
@@ -1601,19 +1700,44 @@
             {
               "id": "116",
               "guid": "7f9ab39a-fe6a-4c1d-b61f-08efa5b14524",
-              "text": "<p>&lt;Specify requirements that are concerned with possible loss, damage, or harm that could result from use of the product. Define any safeguards or actions that must be taken, as well as potentially dangerous actions that must be prevented. Identify any safety certifications, policies, or regulations to which the product must conform.&gt;</p>"
+              "text": "<p>While the VMS does not control physical machinery or deliver clinical medical interventions (see Exclusion EX-1), it safeguards vulnerable populations (isolated senior citizens and elementary school children) through mandatory human-safety controls:</p><ul><li><strong>QA-SAF-01 [Release 1.0] Mandatory Clearance Gate:</strong> The system shall strictly prohibit matching or assigning any volunteer to a senior or student case unless their <code>BCS_Record.Status</code> equals <code>Passed</code> and their profile status is <code>Approved</code>.</li><li><strong>QA-SAF-02 [Release 2.0] Youth Tutoring Credential Gate:</strong> The system shall block assignment to any elementary student tutoring case unless a Volunteer Administrator has explicitly verified and approved the volunteer's educational credentials (UC-04) in addition to police clearance.</li><li><strong>QA-SAF-03 [Release 1.0] Non-Clinical Boundary &amp; Emergency Escalation Notice:</strong> The SPCC Intake Console and Volunteer Portal shall display a persistent notice stating that VMS coordinates non-medical wellness checks only and instructing staff/volunteers to contact emergency services (911) immediately if a senior is in acute medical distress.</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-69"
+                ],
+                "reference": [
+                  "SRS-74",
+                  "SRS-134",
+                  "SRS-136"
+                ]
+              }
             }
           ]
         },
         {
           "id": "117",
           "guid": "073e5229-e63e-4480-90ff-5b6f152a3603",
-          "heading": "[Others as relevant]",
+          "heading": "Additional Quality Attributes (Availability, Integrity, and Retention)",
           "children": [
             {
               "id": "118",
               "guid": "8a802557-64b6-4d81-b1b9-df3285953474",
-              "text": "<p>&lt;Create a separate section in the SRS for each additional product quality attribute to describe characteristics that will be important to either customers or developers. Possibilities include availability, efficiency, installability, integrity, interoperability, modifiability, portability, reliability, reusability, robustness, scalability, and verifiability. Write these to be specific, quantitative, and verifiable. Clarify the relative priorities for various attributes, such as security over performance.&gt;</p>"
+              "text": "<ul><li><strong>QA-AVL-01 [Release 1.0] System Availability:</strong> The VMS web portal and database shall maintain 99.5% operational uptime during core municipal operating hours (06:00 AM – 10:00 PM PT, 7 days a week), excluding scheduled maintenance windows (TBD confirmation).</li><li><strong>QA-INT-01 [Release 1.0] Data Integrity &amp; Post-Assignment Updates:</strong> Volunteer engagement metrics and case histories shall automatically update upon completion of each assignment, and database foreign-key constraints shall prevent orphaned cases or unverified assignments.</li><li><strong>QA-RET-01 [Release 1.0] Two-Year Activity Retention &amp; Archival Policy:</strong> Per stakeholder retention rules, the system shall retain active and historical volunteer activity logs and completed case records for a rolling window of 2 years (24 months) for administrative reporting; records exceeding 2 years shall be automatically archived or purged in accordance with municipal privacy policy (TBD confirmation on archival vs. hard deletion).</li><li><strong>QA-MOD-01 [Releases 1.0–3.0] Modular Extensibility:</strong> The backend service layer and database schema shall be modularly decoupled so that Release 2.0 (student tutoring), Release 2.5 (sponsor rewards), and Release 3.0 (ML forecasting and mobile API endpoints) can be deployed without disrupting existing Release 1.0 senior care workflows.</li></ul>",
+              "links": {
+                "satisfy": [
+                  "VSD-43",
+                  "VSD-45",
+                  "VSD-65",
+                  "VSD-67"
+                ],
+                "reference": [
+                  "SRS-72",
+                  "SRS-76",
+                  "SRS-97",
+                  "SRS-144"
+                ]
+              }
             }
           ]
         }
@@ -1627,7 +1751,17 @@
         {
           "id": "120",
           "guid": "cee5675e-010a-4ead-b2e9-1195612f5a59",
-          "text": "<p>&lt;Internationalization and localization requirements ensure that the product will be suitable for use in nations, cultures, and geographic locations other than those in which it was created. Such requirements might address differences in: currency; formatting of dates, numbers, addresses, and telephone numbers; language, including national spelling conventions within the same language (such as American versus British English), symbols used, and character sets; given name and family name order; time zones; international regulations and laws; cultural and political issues; paper sizes used; weights and measures; electrical voltages and plug shapes; and many others.&gt;</p>"
+          "text": "<p><strong>Partially Applicable (Localized for Kamloops, BC, Canada; i18n-Ready Architecture).</strong> Because the VMS is deployed exclusively for the City of Kamloops, British Columbia, multi-currency, multi-timezone, and international regulatory variations are N/A. However, the system shall enforce Canadian localization standards and internationalization readiness:</p><ul><li><strong>I18N-01 [Release 1.0] Primary Language &amp; Future Bilingual Readiness:</strong> Release 1.0 shall deliver all UI labels, notifications, and reports in Canadian English (<code>en-CA</code>). All user-facing strings shall be externalized into structured resource bundles (e.g., JSON/i18n translation keys) rather than hardcoded in UI components so that Canadian French (<code>fr-CA</code>) can be added in a future release without code refactoring.</li><li><strong>I18N-02 [Release 1.0] Canadian Regional Formats:</strong> The system shall format telephone numbers using the North American Numbering Plan (<code>+1-XXX-XXX-XXXX</code>), postal codes in Canadian alphanumeric format (<code>A1A 1A1</code>), dates in ISO 8601 (<code>YYYY-MM-DD</code>) or standard Canadian format, and scheduled jobs (such as the 06:00 AM daily forecast) in Pacific Time (America/Vancouver, PST/PDT).</li></ul>",
+          "links": {
+            "satisfy": [
+              "VSD-88"
+            ],
+            "reference": [
+              "SRS-56",
+              "SRS-127",
+              "SRS-144"
+            ]
+          }
         }
       ]
     },
@@ -1639,7 +1773,19 @@
         {
           "id": "122",
           "guid": "a336f822-33a4-4c33-9640-db1d4ff45f82",
-          "text": "<p>&lt;Examples are: legal, regulatory or financial compliance, and standards requirements; requirements for product installation, configuration, startup, and shutdown; and logging, monitoring and audit trail requirements. Instead of just combining these all under \"Other,\" add any new sections to the template that are pertinent to your project. Omit this section if all your requirements are accommodated in other sections. &gt;</p>"
+          "text": "<p>The following legal, privacy, backup, and operational requirements apply to the VMS across releases and are not covered under Sections 3–7:</p><ul><li><strong>OTH-01 [Release 1.0] Municipal &amp; Provincial Privacy Compliance (BC FIPPA):</strong> Because the VMS is hosted on municipal IT infrastructure in British Columbia and processes personal data of vulnerable residents (seniors and minors), all data collection, consent notices, and storage practices shall comply with the British Columbia <em>Freedom of Information and Protection of Privacy Act</em> (FIPPA).</li><li><strong>OTH-02 [Release 1.0] Backup &amp; Disaster Recovery Operations:</strong> Automated daily incremental database and encrypted document backups, plus weekly full snapshots, shall execute off-peak and replicate to a separate municipal backup server, supporting a Recovery Point Objective (RPO) of 24 hours and a Recovery Time Objective (RTO) of 4 hours (TBD confirmation).</li><li><strong>OTH-03 [Releases 1.0–3.0] Release Migration &amp; Zero-Downtime Cutover:</strong> Database schema migrations for Releases 2.0, 2.5, and 3.0 shall include automated rollback scripts and execute during scheduled low-traffic maintenance windows (01:00 AM – 04:00 AM PT) with verified pre-deployment backups.</li></ul>",
+          "links": {
+            "satisfy": [
+              "VSD-59",
+              "VSD-86",
+              "VSD-88"
+            ],
+            "reference": [
+              "SRS-72",
+              "SRS-74",
+              "SRS-76"
+            ]
+          }
         }
       ]
     },
@@ -1651,7 +1797,16 @@
         {
           "id": "124",
           "guid": "1c35e566-39ec-4eb1-857b-71c9c6b29e06",
-          "text": "<p>&lt;Define any specialized terms that a reader needs to know to understand the SRS, including acronyms and abbreviations. Spell out each acronym and provide its definition. Consider building a reusable enterprise-level glossary that spans multiple projects and incorporating by reference any terms that pertain to this project.&gt;</p>"
+          "text": "<p>The following terms, acronyms, and abbreviations are used throughout this SRS:</p><table><thead><tr><th>Term / Acronym</th><th>Definition</th></tr></thead><tbody><tr><td><strong>BCS</strong></td><td><strong>Background Check System:</strong> The external municipal/government automated police clearance service that processes criminal record checks within a 48-hour turnaround SLA during business hours.</td></tr><tr><td><strong>Engagement Score</strong></td><td>A calculated system metric reflecting a volunteer's historical reliability, completed assignments, and commitment level, used by Volunteer Administrators during candidate selection.</td></tr><tr><td><strong>ERD</strong></td><td><strong>Entity-Relationship Diagram:</strong> A visual logical data model depicting core VMS entities, attributes, primary keys, and cardinality relationships (see Appendix B).</td></tr><tr><td><strong>FIPPA</strong></td><td><strong>Freedom of Information and Protection of Privacy Act:</strong> British Columbia provincial legislation governing the collection, protection, and disclosure of personal information by public bodies (including municipalities).</td></tr><tr><td><strong>PII</strong></td><td><strong>Personally Identifiable Information:</strong> Any data that can identify a specific individual (e.g., full name, home address, phone number, birth date, or police check record).</td></tr><tr><td><strong>RBAC</strong></td><td><strong>Role-Based Access Control:</strong> A security mechanism restricting system actions and data visibility based on the authenticated user's assigned role (e.g., Volunteer, SPCC Employee, Volunteer Admin).</td></tr><tr><td><strong>RHEL 9</strong></td><td><strong>Red Hat Enterprise Linux 9:</strong> The standardized enterprise Linux operating system running on the municipal web and database servers.</td></tr><tr><td><strong>Senior-Peer Volunteer</strong></td><td>An approved volunteer matched to provide non-medical daily wellness check-in calls, appointment reminders, and social companionship to senior citizens.</td></tr><tr><td><strong>SLA</strong></td><td><strong>Service Level Agreement:</strong> A formal performance or turnaround commitment between service providers (e.g., BCS 48-hour police check turnaround).</td></tr><tr><td><strong>SPCC</strong></td><td><strong>Senior People Care Center:</strong> The municipal care facility whose staff conduct telephone intake with senior citizens and register or update senior profiles and support cases in the VMS.</td></tr><tr><td><strong>SRS</strong></td><td><strong>Software Requirements Specification:</strong> This document, specifying functional, data, interface, quality, and operational requirements for the VMS.</td></tr><tr><td><strong>Student-Peer Volunteer</strong></td><td>An approved volunteer who has passed both a criminal background check and educational credential verification (UC-04) to tutor elementary students (introduced in Release 2.0).</td></tr><tr><td><strong>VMS</strong></td><td><strong>Volunteer Management System:</strong> The centralized web and mobile software platform specified in this document.</td></tr><tr><td><strong>VSD</strong></td><td><strong>Vision and Scope Document:</strong> The upstream business requirements document defining project vision, business objectives, release roadmap, and stakeholder profiles.</td></tr></tbody></table>",
+          "links": {
+            "reference": [
+              "SRS-58",
+              "SRS-62",
+              "SRS-68",
+              "SRS-72",
+              "SRS-144"
+            ]
+          }
         }
       ]
     },
@@ -1663,7 +1818,17 @@
         {
           "id": "126",
           "guid": "9dea36e3-744d-42ff-a675-f7491865a0d9",
-          "text": "<p>&lt;This optional section includes or points to pertinent analysis models such as data flow diagrams, feature trees, state-transition diagrams, or entity-relationship diagrams. You might prefer to insert certain models into the relevant sections of the specification instead of collecting them at the end.&gt;</p>"
+          "text": "<p><strong>N/A (Consolidated in Section 2.3 and Appendix B).</strong> Per the ReqView SRS template guidelines, analysis models have been embedded directly within their relevant specification sections and Appendix B rather than duplicated here:</p><ul><li><strong>System Context Diagram:</strong> Located in the Vision and Scope Document (<code>VSD-71</code>), illustrating external actors and data flows across the VMS boundary.</li><li><strong>Use Case Diagram &amp; Activity Diagrams:</strong> Located in Section 2.3 (<em>Use Cases and Models</em>: <code>SRS-135</code> for the UML Use Case Diagram; <code>SRS-136</code> for the Volunteer Screening &amp; Daily Forecast Activity Diagrams).</li><li><strong>Logical Data Model (ERD) &amp; Notation Legend:</strong> Located in Section 4.1 (<code>SRS-91</code>) and Appendix B: Analysis Models (<code>SRS-142</code>, <code>SRS-145</code>, <code>SRS-146</code>, <code>SRS-147</code>).</li><li><strong>User Interface Wireframes (Prototype 1):</strong> Located in Appendix C: Application Prototype 1 (<code>SRS-143</code>, <code>SRS-170</code>).</li></ul>",
+          "links": {
+            "reference": [
+              "VSD-71",
+              "SRS-91",
+              "SRS-135",
+              "SRS-136",
+              "SRS-142",
+              "SRS-143"
+            ]
+          }
         }
       ]
     },
@@ -1947,9 +2112,12 @@
     }
   ],
   "attributes": {
+    "links": {
+      "name": "Links",
+      "type": "links"
+    }
   },
-  "templateColumns": {
-  },
+  "templateColumns": {},
   "views": {
     "Primary": {
       "columns": [
@@ -1959,7 +2127,15 @@
         },
         {
           "columnId": "description",
-          "width": 500
+          "width": 520
+        },
+        {
+          "columnId": "satisfy",
+          "width": 150
+        },
+        {
+          "columnId": "reference",
+          "width": 150
         }
       ],
       "default": true
