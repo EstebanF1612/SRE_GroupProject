@@ -9,7 +9,7 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-11-26T17:38:00.000Z",
+  "lastChangedOn": "2026-11-26T17:59:35.743Z",
   "lastChangedBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
@@ -1498,22 +1498,6 @@
       "heading": "External Interface Requirements",
       "children": [
         {
-          "id": "99",
-          "guid": "3a5b6c82-09bb-4f31-bccc-b76c39065e5b",
-          "text": "<p>This section defines the external interface requirements for the Volunteer Management System (VMS) across all planned releases (Releases 1.0, 2.0, 2.5, and 3.0), ensuring reliable communication between human user classes, external software services, hardware platforms, and network protocols.</p>",
-          "links": {
-            "satisfy": [
-              "VSD-63",
-              "VSD-65",
-              "VSD-67"
-            ],
-            "reference": [
-              "VSD-71",
-              "SRS-66"
-            ]
-          }
-        },
-        {
           "id": "100",
           "guid": "d1367a5d-61ac-4a34-8fbf-00cfacdb5f08",
           "heading": "User Interfaces",
@@ -1523,17 +1507,17 @@
               "guid": "3213c38f-cd90-4922-8b45-9458a1599225",
               "text": "<p>The VMS provides role-based user interfaces tailored to each favored user class (refer to Appendix C: Application Prototype 1 for initial wireframe layouts):</p><ul><li><strong>UI-01 [Release 1.0] Responsive Web Portal:</strong> The primary interface shall be a responsive web application accessible via standard modern desktop and mobile browsers (Chrome, Firefox, Safari, Edge) using clean, high-contrast layouts with persistent top-level navigation, role-specific dashboards, standardized form validation messages, and contextual help tooltips.</li><li><strong>UI-02 [Release 1.0] Volunteer Portal:</strong> Shall provide prospective and approved volunteers with a registration wizard (personal info, preferred activities, credential upload), an assignment dashboard displaying matched cases, and an in-app notification center.</li><li><strong>UI-03 [Release 1.0] SPCC Employee Intake Console:</strong> Shall provide a streamlined, single-screen telephone intake form optimized for rapid data entry while conversing with senior citizens over the phone, including case status and urgency indicators.</li><li><strong>UI-04 [Release 1.0] Volunteer Administrator Dashboard:</strong> Shall display pending volunteer screening queues, BCS clearance statuses, candidate matching views (with historical engagement metrics), and the daily 7-day forecast and shortage alert view.</li><li><strong>UI-05 [Release 2.0] School Administrator Portal:</strong> Shall provide a dedicated interface for elementary school staff to submit tutoring requests, specify required academic skills, and view confirmed tutor placements.</li><li><strong>UI-06 [Release 2.5] Local Business Sponsor Portal:</strong> Shall provide downtown merchants with an interface to create, schedule, and manage promotional coupon offers and view verified volunteer engagement summaries.</li><li><strong>UI-07 [Release 3.0] Native Mobile Applications:</strong> Shall introduce native iOS and Android applications enabling volunteers to receive push alerts, view active assignments, and log wellness check-in or tutoring session outcomes on the go.</li><li><strong>UI-08 [All Releases] Excluded Direct Interfaces:</strong> Senior citizens and elementary students shall not have direct login interfaces; all interactions are mediated by SPCC employees and School Administrators respectively.</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-65",
-                  "VSD-67",
-                  "VSD-84",
-                  "VSD-88"
-                ],
                 "reference": [
                   "SRS-68",
                   "SRS-74",
                   "SRS-143",
                   "SRS-170"
+                ],
+                "satisfy": [
+                  "VSD-65",
+                  "VSD-67",
+                  "VSD-84",
+                  "VSD-88"
                 ]
               }
             }
@@ -1549,12 +1533,6 @@
               "guid": "aacb4130-bcb1-4061-ad33-ab77267ccb03",
               "text": "<p>The VMS interfaces with the following internal and external software components:</p><ul><li><strong>SI-01 [Release 1.0] PostgreSQL 15 Relational Database Server:</strong> Connects via TLS-encrypted TCP/IP (port 5432) on Red Hat Enterprise Linux (RHEL) 9 using logically separated schemas (e.g., <code>core_ops</code>, <code>pii_vault</code>, <code>forecasting</code>) to enforce strict access boundaries while storing entity records and encrypted file URIs.</li><li><strong>SI-02 [Release 1.0] Encrypted Local Document Store:</strong> Interfaces with the RHEL 9 encrypted filesystem directory to read/write uploaded PDF compliance documents (criminal record certificates and educational credentials) referenced by <code>BCS_Record.FilePath</code>.</li><li><strong>SI-03 [Release 1.0] External Background Check System (BCS):</strong> Communicates asynchronously via a RESTful JSON API over HTTPS (TLS 1.2+). VMS submits applicant identity payloads (<code>Volunteer.ID</code>, legal name, birth date, address) and receives clearance outcomes (<code>Passed</code> / <code>Failed</code>) and certificate references within a 48-hour SLA. Requests submitted outside standard police working hours are queued by BCS for next-business-day processing.</li><li><strong>SI-04 [Release 1.0] Municipal SMTP Email &amp; In-App Notification Service:</strong> Interfaces with the city's SMTP relay server to dispatch transactional email alerts (assignment offers, approval decisions, daily 06:00 AM forecast/shortage reports) synchronized with in-app notification records.</li><li><strong>SI-05 [Release 2.0] Academic Credential Verification Workflow:</strong> Rather than an automated external database link, educational credential verification (UC-04) operates as a manual administrative review workflow inside VMS where Volunteer Administrators inspect uploaded PDF transcripts/certificates and record approval status.</li><li><strong>SI-06 [All Releases] SPCC Telephony Coexistence:</strong> No automated CTI/API integration exists with the SPCC phone system; SPCC staff use existing municipal telephones concurrently with the VMS web console.</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-59",
-                  "VSD-63",
-                  "VSD-65",
-                  "VSD-67"
-                ],
                 "reference": [
                   "VSD-71",
                   "SRS-72",
@@ -1562,6 +1540,12 @@
                   "SRS-128",
                   "SRS-131",
                   "SRS-144"
+                ],
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-63",
+                  "VSD-65",
+                  "VSD-67"
                 ]
               }
             }
@@ -1577,12 +1561,12 @@
               "guid": "568c1af2-f8a5-4ef5-8b17-81af7818df76",
               "text": "<p><strong>N/A (No Custom Hardware Interfaces).</strong> The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>",
               "links": {
-                "satisfy": [
-                  "VSD-86"
-                ],
                 "reference": [
                   "SRS-72",
                   "SRS-76"
+                ],
+                "satisfy": [
+                  "VSD-86"
                 ]
               }
             }
@@ -1598,13 +1582,13 @@
               "guid": "c161c5d1-f497-4db7-9e1d-07f6a1c7626d",
               "text": "<ul><li><strong>CI-01 [Release 1.0] Web Transport Security:</strong> All browser-to-server and mobile-to-API traffic shall use HTTPS over TLS 1.2 or higher; unencrypted HTTP requests on port 80 shall automatically redirect to port 443.</li><li><strong>CI-02 [Release 1.0] Data Interchange Formatting:</strong> All client-server and external BCS API payloads shall be encoded in UTF-8 JSON; document uploads (background checks, educational credentials) shall be restricted to PDF format (max 10 MB per file).</li><li><strong>CI-03 [Release 1.0] Notification Delivery Channels:</strong> System notifications (assignment dispatches, screening updates, and daily 06:00 AM shortage alerts) shall be delivered dual-channel via authenticated SMTP/TLS email and persistent in-app notification feeds (plus APNs/FCM push notifications in Release 3.0).</li><li><strong>CI-04 [Release 1.0] Network Isolation:</strong> Database traffic between the web tier and PostgreSQL 15 tier shall traverse an isolated municipal VLAN with firewall rules blocking direct external access to port 5432.</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-59",
-                  "VSD-88"
-                ],
                 "reference": [
                   "SRS-72",
                   "SRS-127"
+                ],
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-88"
                 ]
               }
             }
@@ -1627,15 +1611,15 @@
               "guid": "886aefc6-836a-4b40-aaa4-f186feffe43c",
               "text": "<ul><li><strong>QA-USE-01 [Release 1.0] Learnability &amp; Onboarding Speed:</strong> Newly onboarded Volunteer Administrators and SPCC Employees shall be able to complete core workflows (registering a senior case, initiating a background check, or assigning a volunteer) within 15 minutes of initial system exposure without requiring formal classroom training.</li><li><strong>QA-USE-02 [Release 1.0] Intake Efficiency:</strong> An SPCC Employee shall be able to create or update a senior citizen profile and log a support case over the phone in 3 minutes or less, utilizing structured dropdowns and auto-formatted fields (E.164 phone numbers, ISO dates).</li><li><strong>QA-USE-03 [Release 1.0] Volunteer Registration Simplicity:</strong> Prospective volunteers shall be able to complete initial registration and activity selection in under 5 minutes with inline field validation and clear error recovery prompts.</li><li><strong>QA-USE-04 [Release 1.0] Accessibility:</strong> All web interfaces shall conform to WCAG 2.1 Level AA contrast and keyboard-navigation guidelines to support diverse municipal staff and community volunteers.</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-84",
-                  "VSD-86",
-                  "VSD-88"
-                ],
                 "reference": [
                   "SRS-68",
                   "SRS-74",
                   "SRS-134"
+                ],
+                "satisfy": [
+                  "VSD-84",
+                  "VSD-86",
+                  "VSD-88"
                 ]
               }
             }
@@ -1651,17 +1635,17 @@
               "guid": "8378f518-27a6-4095-9cd4-d94a975b4581",
               "text": "<ul><li><strong>QA-PERF-01 [Release 1.0] Interactive Response Time:</strong> 95% of standard web UI actions (case lookups, profile creation, volunteer search/filtering, and assignment confirmation) shall complete with a server response time of 2 seconds or less under normal operating loads (up to 100 concurrent users; TBD confirmation with municipal IT).</li><li><strong>QA-PERF-02 [Release 1.0] Daily Forecast Report Generation:</strong> The automated daily 06:00 AM 7-day demand forecast job (UC-07) and shortage alert calculation shall complete execution and dispatch notifications within 60 seconds across a pool of up to 15,000 senior cases and 5,000 volunteers.</li><li><strong>QA-PERF-03 [Release 1.0] End-to-End Assignment Turnaround:</strong> Operational workflow efficiency supported by the VMS matching engine shall reduce average volunteer assignment lead time by 30% from the historical 2-week manual baseline down to 4–5 business days (including the external BCS 48-hour SLA).</li><li><strong>QA-PERF-04 [Release 1.0] Peak Throughput &amp; Concurrency:</strong> The 2-tier RHEL 9 / PostgreSQL 15 architecture shall sustain peak daily traffic spikes of up to 2,000 case transactions per day and 250 concurrent active sessions without HTTP 5xx errors (TBD confirmation).</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-43",
-                  "VSD-45",
-                  "VSD-55",
-                  "VSD-86"
-                ],
                 "reference": [
                   "SRS-72",
                   "SRS-129",
                   "SRS-131",
                   "SRS-134"
+                ],
+                "satisfy": [
+                  "VSD-43",
+                  "VSD-45",
+                  "VSD-55",
+                  "VSD-86"
                 ]
               }
             }
@@ -1677,16 +1661,16 @@
               "guid": "3c9a3d31-f112-4e9a-814e-d10811b3c5f5",
               "text": "<ul><li><strong>QA-SEC-01 [Release 1.0] Role-Based Access Control (RBAC) &amp; Data Isolation:</strong> The system shall enforce strict RBAC across logically separated PostgreSQL schemas. Senior citizen and elementary student personally identifiable information (PII—full name, address, phone number, birth date) shall remain hidden from unapproved and unassigned volunteers; an approved volunteer may view contact and case details <em>only</em> for cases explicitly assigned to them.</li><li><strong>QA-SEC-02 [Release 1.0] Encryption in Transit and at Rest:</strong> All external network communications shall use TLS 1.2+. Stored compliance PDFs (police background checks and academic certificates) in the local directory and PII columns in PostgreSQL 15 shall be encrypted at rest using AES-256.</li><li><strong>QA-SEC-03 [Release 1.0] Authentication &amp; Session Management:</strong> All direct users (Volunteers, SPCC Employees, Volunteer Admins, School Admins in 2.0, Sponsors in 2.5) shall authenticate via salted, hashed credentials (bcrypt/Argon2) with automatic session timeout after 30 minutes of inactivity.</li><li><strong>QA-SEC-04 [Release 1.0] Audit Logging:</strong> Every read, create, update, or export operation involving senior PII, student records, or BCS clearance statuses shall record an immutable audit entry (user ID, timestamp, action, target record ID).</li></ul>",
               "links": {
+                "reference": [
+                  "SRS-72",
+                  "SRS-74",
+                  "SRS-97"
+                ],
                 "satisfy": [
                   "VSD-59",
                   "VSD-84",
                   "VSD-86",
                   "VSD-88"
-                ],
-                "reference": [
-                  "SRS-72",
-                  "SRS-74",
-                  "SRS-97"
                 ]
               }
             }
@@ -1702,14 +1686,14 @@
               "guid": "7f9ab39a-fe6a-4c1d-b61f-08efa5b14524",
               "text": "<p>While the VMS does not control physical machinery or deliver clinical medical interventions (see Exclusion EX-1), it safeguards vulnerable populations (isolated senior citizens and elementary school children) through mandatory human-safety controls:</p><ul><li><strong>QA-SAF-01 [Release 1.0] Mandatory Clearance Gate:</strong> The system shall strictly prohibit matching or assigning any volunteer to a senior or student case unless their <code>BCS_Record.Status</code> equals <code>Passed</code> and their profile status is <code>Approved</code>.</li><li><strong>QA-SAF-02 [Release 2.0] Youth Tutoring Credential Gate:</strong> The system shall block assignment to any elementary student tutoring case unless a Volunteer Administrator has explicitly verified and approved the volunteer's educational credentials (UC-04) in addition to police clearance.</li><li><strong>QA-SAF-03 [Release 1.0] Non-Clinical Boundary &amp; Emergency Escalation Notice:</strong> The SPCC Intake Console and Volunteer Portal shall display a persistent notice stating that VMS coordinates non-medical wellness checks only and instructing staff/volunteers to contact emergency services (911) immediately if a senior is in acute medical distress.</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-59",
-                  "VSD-69"
-                ],
                 "reference": [
                   "SRS-74",
                   "SRS-134",
                   "SRS-136"
+                ],
+                "satisfy": [
+                  "VSD-59",
+                  "VSD-69"
                 ]
               }
             }
@@ -1725,17 +1709,17 @@
               "guid": "8a802557-64b6-4d81-b1b9-df3285953474",
               "text": "<ul><li><strong>QA-AVL-01 [Release 1.0] System Availability:</strong> The VMS web portal and database shall maintain 99.5% operational uptime during core municipal operating hours (06:00 AM – 10:00 PM PT, 7 days a week), excluding scheduled maintenance windows (TBD confirmation).</li><li><strong>QA-INT-01 [Release 1.0] Data Integrity &amp; Post-Assignment Updates:</strong> Volunteer engagement metrics and case histories shall automatically update upon completion of each assignment, and database foreign-key constraints shall prevent orphaned cases or unverified assignments.</li><li><strong>QA-RET-01 [Release 1.0] Two-Year Activity Retention &amp; Archival Policy:</strong> Per stakeholder retention rules, the system shall retain active and historical volunteer activity logs and completed case records for a rolling window of 2 years (24 months) for administrative reporting; records exceeding 2 years shall be automatically archived or purged in accordance with municipal privacy policy (TBD confirmation on archival vs. hard deletion).</li><li><strong>QA-MOD-01 [Releases 1.0–3.0] Modular Extensibility:</strong> The backend service layer and database schema shall be modularly decoupled so that Release 2.0 (student tutoring), Release 2.5 (sponsor rewards), and Release 3.0 (ML forecasting and mobile API endpoints) can be deployed without disrupting existing Release 1.0 senior care workflows.</li></ul>",
               "links": {
-                "satisfy": [
-                  "VSD-43",
-                  "VSD-45",
-                  "VSD-65",
-                  "VSD-67"
-                ],
                 "reference": [
                   "SRS-72",
                   "SRS-76",
                   "SRS-97",
                   "SRS-144"
+                ],
+                "satisfy": [
+                  "VSD-43",
+                  "VSD-45",
+                  "VSD-65",
+                  "VSD-67"
                 ]
               }
             }
@@ -1753,13 +1737,13 @@
           "guid": "cee5675e-010a-4ead-b2e9-1195612f5a59",
           "text": "<p><strong>Partially Applicable (Localized for Kamloops, BC, Canada; i18n-Ready Architecture).</strong> Because the VMS is deployed exclusively for the City of Kamloops, British Columbia, multi-currency, multi-timezone, and international regulatory variations are N/A. However, the system shall enforce Canadian localization standards and internationalization readiness:</p><ul><li><strong>I18N-01 [Release 1.0] Primary Language &amp; Future Bilingual Readiness:</strong> Release 1.0 shall deliver all UI labels, notifications, and reports in Canadian English (<code>en-CA</code>). All user-facing strings shall be externalized into structured resource bundles (e.g., JSON/i18n translation keys) rather than hardcoded in UI components so that Canadian French (<code>fr-CA</code>) can be added in a future release without code refactoring.</li><li><strong>I18N-02 [Release 1.0] Canadian Regional Formats:</strong> The system shall format telephone numbers using the North American Numbering Plan (<code>+1-XXX-XXX-XXXX</code>), postal codes in Canadian alphanumeric format (<code>A1A 1A1</code>), dates in ISO 8601 (<code>YYYY-MM-DD</code>) or standard Canadian format, and scheduled jobs (such as the 06:00 AM daily forecast) in Pacific Time (America/Vancouver, PST/PDT).</li></ul>",
           "links": {
-            "satisfy": [
-              "VSD-88"
-            ],
             "reference": [
               "SRS-56",
               "SRS-127",
               "SRS-144"
+            ],
+            "satisfy": [
+              "VSD-88"
             ]
           }
         }
@@ -1775,15 +1759,15 @@
           "guid": "a336f822-33a4-4c33-9640-db1d4ff45f82",
           "text": "<p>The following legal, privacy, backup, and operational requirements apply to the VMS across releases and are not covered under Sections 3–7:</p><ul><li><strong>OTH-01 [Release 1.0] Municipal &amp; Provincial Privacy Compliance (BC FIPPA):</strong> Because the VMS is hosted on municipal IT infrastructure in British Columbia and processes personal data of vulnerable residents (seniors and minors), all data collection, consent notices, and storage practices shall comply with the British Columbia <em>Freedom of Information and Protection of Privacy Act</em> (FIPPA).</li><li><strong>OTH-02 [Release 1.0] Backup &amp; Disaster Recovery Operations:</strong> Automated daily incremental database and encrypted document backups, plus weekly full snapshots, shall execute off-peak and replicate to a separate municipal backup server, supporting a Recovery Point Objective (RPO) of 24 hours and a Recovery Time Objective (RTO) of 4 hours (TBD confirmation).</li><li><strong>OTH-03 [Releases 1.0–3.0] Release Migration &amp; Zero-Downtime Cutover:</strong> Database schema migrations for Releases 2.0, 2.5, and 3.0 shall include automated rollback scripts and execute during scheduled low-traffic maintenance windows (01:00 AM – 04:00 AM PT) with verified pre-deployment backups.</li></ul>",
           "links": {
-            "satisfy": [
-              "VSD-59",
-              "VSD-86",
-              "VSD-88"
-            ],
             "reference": [
               "SRS-72",
               "SRS-74",
               "SRS-76"
+            ],
+            "satisfy": [
+              "VSD-59",
+              "VSD-86",
+              "VSD-88"
             ]
           }
         }
@@ -2111,8 +2095,10 @@
       ]
     }
   ],
-  "attributes": {},
-  "templateColumns": {},
+  "attributes": {
+  },
+  "templateColumns": {
+  },
   "views": {
     "Primary": {
       "columns": [
@@ -2123,14 +2109,6 @@
         {
           "columnId": "description",
           "width": 520
-        },
-        {
-          "columnId": "satisfy",
-          "width": 150
-        },
-        {
-          "columnId": "reference",
-          "width": 150
         }
       ],
       "default": true
