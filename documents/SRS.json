@@ -9,7 +9,7 @@
     "email": "t00755725@mytru.ca",
     "company": "Thompson Rivers University"
   },
-  "lastChangedOn": "2026-11-26T18:03:19.053Z",
+  "lastChangedOn": "2026-11-26T18:06:00.000Z",
   "lastChangedBy": {
     "name": "T00755725",
     "email": "t00755725@mytru.ca",
@@ -1498,6 +1498,22 @@
       "heading": "External Interface Requirements",
       "children": [
         {
+          "id": "99",
+          "guid": "3a5b6c82-09bb-4f31-bccc-b76c39065e5b",
+          "text": "<p>This section defines the external interface requirements for the Volunteer Management System (VMS) across all planned releases (Releases 1.0, 2.0, 2.5, and 3.0), ensuring reliable communication between human user classes, external software services, hardware platforms, and network protocols.</p>",
+          "links": {
+            "reference": [
+              "VSD-71",
+              "SRS-66"
+            ],
+            "satisfaction": [
+              "VSD-63",
+              "VSD-65",
+              "VSD-67"
+            ]
+          }
+        },
+        {
           "id": "100",
           "guid": "d1367a5d-61ac-4a34-8fbf-00cfacdb5f08",
           "heading": "User Interfaces",
@@ -1513,7 +1529,7 @@
                   "SRS-143",
                   "SRS-170"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-65",
                   "VSD-67",
                   "VSD-84",
@@ -1541,7 +1557,7 @@
                   "SRS-131",
                   "SRS-144"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-59",
                   "VSD-63",
                   "VSD-65",
@@ -1559,29 +1575,16 @@
             {
               "id": "105",
               "guid": "568c1af2-f8a5-4ef5-8b17-81af7818df76",
-              "text": "<p>N/A: The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>",
+              "text": "<p><strong>N/A (No Custom Hardware Interfaces).</strong> The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>",
               "links": {
                 "reference": [
                   "SRS-72",
                   "SRS-76"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-86"
                 ]
-              },
-              "history": [
-                {
-                  "attributesChanged": {
-                    "text": "<p><strong>N/A (No Custom Hardware Interfaces).</strong> The VMS is a pure software application deployed on standard municipal virtualized/rack server infrastructure (RHEL 9 web and database nodes) and accessed over standard commercial off-the-shelf (COTS) client devices (desktop PCs, laptops, tablets, and smartphones in Release 3.0). It does not interface with custom sensors, biometric scanners, telephony hardware, or embedded peripherals.</p>"
-                  },
-                  "changedBy": {
-                    "company": "Thompson Rivers University",
-                    "email": "t00755725@mytru.ca",
-                    "name": "T00755725"
-                  },
-                  "changedOn": "2026-11-26T18:03:19.053Z"
-                }
-              ]
+              }
             }
           ]
         },
@@ -1599,7 +1602,7 @@
                   "SRS-72",
                   "SRS-127"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-59",
                   "VSD-88"
                 ]
@@ -1629,7 +1632,7 @@
                   "SRS-74",
                   "SRS-134"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-84",
                   "VSD-86",
                   "VSD-88"
@@ -1654,7 +1657,7 @@
                   "SRS-131",
                   "SRS-134"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-43",
                   "VSD-45",
                   "VSD-55",
@@ -1679,7 +1682,7 @@
                   "SRS-74",
                   "SRS-97"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-59",
                   "VSD-84",
                   "VSD-86",
@@ -1704,7 +1707,7 @@
                   "SRS-134",
                   "SRS-136"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-59",
                   "VSD-69"
                 ]
@@ -1728,7 +1731,7 @@
                   "SRS-97",
                   "SRS-144"
                 ],
-                "satisfy": [
+                "satisfaction": [
                   "VSD-43",
                   "VSD-45",
                   "VSD-65",
@@ -1755,7 +1758,7 @@
               "SRS-127",
               "SRS-144"
             ],
-            "satisfy": [
+            "satisfaction": [
               "VSD-88"
             ]
           }
@@ -1777,7 +1780,7 @@
               "SRS-74",
               "SRS-76"
             ],
-            "satisfy": [
+            "satisfaction": [
               "VSD-59",
               "VSD-86",
               "VSD-88"
@@ -2108,10 +2111,8 @@
       ]
     }
   ],
-  "attributes": {
-  },
-  "templateColumns": {
-  },
+  "attributes": {},
+  "templateColumns": {},
   "views": {
     "Primary": {
       "columns": [
@@ -2122,6 +2123,14 @@
         {
           "columnId": "description",
           "width": 520
+        },
+        {
+          "columnId": "satisfaction",
+          "width": 150
+        },
+        {
+          "columnId": "reference",
+          "width": 150
         }
       ],
       "default": true
